@@ -1,0 +1,29 @@
+@model dynamic
+
+<!-- promise widget -->
+<section class="circle-image-widget margin-bottom-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+
+                @foreach (var item in Model.ItemsSelectedItems)
+                {
+                    <div class="row column display-flex align-items-center">
+                        <div class="col-xs-12 col-md-5 image-box">
+                            @if (item.ImageMediaAssets.Count > 0)
+                            {
+                                <img src="@item.ImageMediaAssets[0].Src" alt="@item.ImageMediaAssets[0].Alt" class="round-image img-responsive">
+                            }
+                        </div>
+                        <div class="col-xs-12  col-md-7 text-box">
+                            <h3 class="font-26">@Html.Raw(@item.DisplayTitle)</h3>
+                            @Html.Raw(@item.Copy)
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end promise widget -->

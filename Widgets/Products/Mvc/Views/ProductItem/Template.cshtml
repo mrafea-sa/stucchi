@@ -1,0 +1,31 @@
+@model dynamic
+
+<section class="problems-widget products margin-bottom-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row column display-flex align-items-center">
+                    <div class="col-xs-12  col-md-6 text-box">
+                        <h2>@Html.Raw(Model.Title)</h2>
+                        @Html.Raw(Model.Content)
+                        <div class="buttons">
+                            <a href="@Model.DetailsLinkLink" class="button button-white pink text-uppercase" title="@Model.DetailsLinkLinkText">@Model.DetailsLinkLinkText</a>
+                            <a href="@Model.IDChartLinkLink" class="button button-white pink text-uppercase" title="@Model.IDChartLinkLinkText">@Model.IDChartLinkLinkText</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 image-box text-center">
+                        @if (Model.ImageMediaAsset != null)
+                        {
+                            <img src="@Model.ImageMediaAsset.ImageSelectedSizeUrl" alt="@Model.ImageMediaAsset.ImageAlternativeText" class="round-image img-responsive" />
+
+                        }
+                        <div class="buttons">
+                            <a href="@Model.DetailsLinkLink" class="button button-white pink text-uppercase" title="@Model.DetailsLinkLinkText">@Model.DetailsLinkLinkText</a>
+                            <a href="@Model.IDChartLinkLink" class="button button-white pink text-uppercase" title="@Model.IDChartLinkLinkText">@Model.IDChartLinkLinkText</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

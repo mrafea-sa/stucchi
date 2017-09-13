@@ -1,0 +1,43 @@
+@model dynamic
+
+<!-- our expertise widget -->
+<section class="our-expertise-widget margin-bottom-10 margin-top-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+
+                @foreach (var item in Model.ItemsSelectedItems)
+                {
+                    <div class="row column">
+                        <div class="box box-right col-xs-12 col-sm-6 col-sm-push-6">
+                            @if (item.ImageMediaAssets.Count > 0)
+                            {
+                                <img src="@item.ImageMediaAssets[0].Src" alt="@item.ImageMediaAssets[0].Alt" class="img-responsive margin-bottom-1">
+                            }
+
+                            <div class="ico">
+                                @if (item.IconMediaAssets.Count > 0)
+                                {
+                                    <img src="@item.IconMediaAssets[0].Src" class="img-responsive margin-bottom-1" alt="@item.IconMediaAssets[0].Alt">
+                                }
+
+                                <span>
+                                    @Html.Raw(@item.DisplayTitle)
+                                </span>
+                            </div>
+                        </div>
+                        <div class="box col-xs-12 col-sm-6 col-sm-pull-6">
+                            <h3>@Html.Raw(@item.DisplayTitle)</h3>
+                            @Html.Raw(@item.Copy)
+                            @if (item.LinkLinks.Count > 0)
+                            {
+                                <a href="@item.LinkLinks[0].Url" class="button button-white pink text-uppercase" title="@Html.Raw(@item.ButtonTitle)">@Html.Raw(@item.ButtonTitle)</a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end our expertise widget -->

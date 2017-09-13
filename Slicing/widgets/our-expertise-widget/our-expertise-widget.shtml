@@ -1,0 +1,66 @@
+<!-- our expertise widget -->
+<section class="our-expertise-widget margin-bottom-10 margin-top-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row column">
+                    <div class="box box-right col-xs-12 col-sm-6 col-sm-push-6">
+                        <img src="resources/images/products/default-img-big.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                        <div class="ico">
+                            <img src="resources/images/icons/mobile-ico.png" class="img-responsive margin-bottom-1" alt="Mobile">
+                            <span>Mobile</span>
+                        </div>
+                    </div>
+                    <div class="box col-xs-12 col-sm-6 col-sm-pull-6">
+                        <h3>MOBILE</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="Find Products">FIND PRODUCTS</a>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div class="box box-right col-xs-12 col-sm-6 col-sm-push-6">
+                        <img src="resources/images/products/default-img-big.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                        <div class="ico">
+                            <img src="resources/images/icons/oil-ico.png" class="img-responsive margin-bottom-1" alt="Oil & Gas">
+                            <span>Oil & Gas</span>
+                        </div>
+                    </div>
+                    <div class="box col-xs-12 col-sm-6 col-sm-pull-6">
+                        <h3>OIL & GAS</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="Find Products">FIND PRODUCTS</a>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div class="box box-right col-xs-12 col-sm-6 col-sm-push-6">
+                        <img src="resources/images/products/default-img-big.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                        <div class="ico">
+                            <img src="resources/images/icons/industrial-ico.png" class="img-responsive margin-bottom-1" alt="Industrial">
+                            <span>Industrial</span>
+                        </div>
+                    </div>
+                    <div class="box col-xs-12 col-sm-6 col-sm-pull-6">
+                        <h3>INDUSTRIAL</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="Find Products">FIND PRODUCTS</a>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div class="box box-right col-xs-12 col-sm-6 col-sm-push-6">
+                        <img src="resources/images/products/default-img-big.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                        <div class="ico">
+                            <img src="resources/images/icons/agricultural-ico.png" class="img-responsive margin-bottom-1" alt="Agricultural">
+                            <span>Agricultural</span>
+                        </div>
+                    </div>
+                    <div class="box col-xs-12 col-sm-6 col-sm-pull-6">
+                        <h3>AGRICULTURAL</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="Find Products">FIND PRODUCTS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end our expertise widget -->

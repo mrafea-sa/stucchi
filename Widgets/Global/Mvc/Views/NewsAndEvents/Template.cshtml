@@ -1,0 +1,33 @@
+@model dynamic
+
+<!-- news events widget -->
+<section class="news-events-widget margin-bottom-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                @foreach (var item in Model.NewsItems)
+                {
+                    <div class="row column">
+                        <div class="col-xs-12">
+                            <h2 class="text-left text-uppercase font-28">@item.Title</h2>
+                            @Html.Raw(@item.Content)
+                        </div>
+                    </div>
+                }
+
+                @foreach (var item in Model.EventsItems)
+                {
+                    <div class="row column">
+                        <div class="col-xs-12">
+                            <h2 class="text-left text-uppercase font-28">@item.Title</h2>
+                            <p class="date text-uppercase">@item.EventStart, @item.Location</p>
+                            @Html.Raw(@item.Content)
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end news events widget -->

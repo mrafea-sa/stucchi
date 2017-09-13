@@ -1,0 +1,4693 @@
+/*** Media Queries */
+/*** Fonts */
+/*** Stucchi 2017 colors */
+/*
+ * Animation mixin
+ */
+/*
+ * Font face mixin
+ */
+/**
+ * Media Queries
+ */
+/* line 53, ../sass/_mixin.scss */
+.margin-top-1 {
+  margin-top: 1rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-2 {
+  margin-top: 2rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-3 {
+  margin-top: 3rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-4 {
+  margin-top: 4rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-5 {
+  margin-top: 5rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-6 {
+  margin-top: 6rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-7 {
+  margin-top: 7rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-8 {
+  margin-top: 8rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-9 {
+  margin-top: 9rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-10 {
+  margin-top: 10rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-11 {
+  margin-top: 11rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-12 {
+  margin-top: 12rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-13 {
+  margin-top: 13rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-14 {
+  margin-top: 14rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-15 {
+  margin-top: 15rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-16 {
+  margin-top: 16rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-17 {
+  margin-top: 17rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-18 {
+  margin-top: 18rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-19 {
+  margin-top: 19rem;
+}
+
+/* line 53, ../sass/_mixin.scss */
+.margin-top-20 {
+  margin-top: 20rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-2 {
+  margin-bottom: 2rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-3 {
+  margin-bottom: 3rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-4 {
+  margin-bottom: 4rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-5 {
+  margin-bottom: 5rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-6 {
+  margin-bottom: 6rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-7 {
+  margin-bottom: 7rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-8 {
+  margin-bottom: 8rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-9 {
+  margin-bottom: 9rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-10 {
+  margin-bottom: 10rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-11 {
+  margin-bottom: 11rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-12 {
+  margin-bottom: 12rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-13 {
+  margin-bottom: 13rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-14 {
+  margin-bottom: 14rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-15 {
+  margin-bottom: 15rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-16 {
+  margin-bottom: 16rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-17 {
+  margin-bottom: 17rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-18 {
+  margin-bottom: 18rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-19 {
+  margin-bottom: 19rem;
+}
+
+/* line 59, ../sass/_mixin.scss */
+.margin-bottom-20 {
+  margin-bottom: 20rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-1 {
+  margin-left: 1rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-2 {
+  margin-left: 2rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-3 {
+  margin-left: 3rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-4 {
+  margin-left: 4rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-5 {
+  margin-left: 5rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-6 {
+  margin-left: 6rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-7 {
+  margin-left: 7rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-8 {
+  margin-left: 8rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-9 {
+  margin-left: 9rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-10 {
+  margin-left: 10rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-11 {
+  margin-left: 11rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-12 {
+  margin-left: 12rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-13 {
+  margin-left: 13rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-14 {
+  margin-left: 14rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-15 {
+  margin-left: 15rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-16 {
+  margin-left: 16rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-17 {
+  margin-left: 17rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-18 {
+  margin-left: 18rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-19 {
+  margin-left: 19rem;
+}
+
+/* line 65, ../sass/_mixin.scss */
+.margin-left-20 {
+  margin-left: 20rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-1 {
+  margin-right: 1rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-2 {
+  margin-right: 2rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-3 {
+  margin-right: 3rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-4 {
+  margin-right: 4rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-5 {
+  margin-right: 5rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-6 {
+  margin-right: 6rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-7 {
+  margin-right: 7rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-8 {
+  margin-right: 8rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-9 {
+  margin-right: 9rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-10 {
+  margin-right: 10rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-11 {
+  margin-right: 11rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-12 {
+  margin-right: 12rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-13 {
+  margin-right: 13rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-14 {
+  margin-right: 14rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-15 {
+  margin-right: 15rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-16 {
+  margin-right: 16rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-17 {
+  margin-right: 17rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-18 {
+  margin-right: 18rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-19 {
+  margin-right: 19rem;
+}
+
+/* line 71, ../sass/_mixin.scss */
+.margin-right-20 {
+  margin-right: 20rem;
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-1--xs {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-2--xs {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-3--xs {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-4--xs {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-5--xs {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-6--xs {
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-7--xs {
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-8--xs {
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-9--xs {
+    margin-top: 9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-10--xs {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-11--xs {
+    margin-top: 11rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-12--xs {
+    margin-top: 12rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-13--xs {
+    margin-top: 13rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-14--xs {
+    margin-top: 14rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-15--xs {
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-16--xs {
+    margin-top: 16rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-17--xs {
+    margin-top: 17rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-18--xs {
+    margin-top: 18rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-19--xs {
+    margin-top: 19rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 77, ../sass/_mixin.scss */
+  .margin-top-20--xs {
+    margin-top: 20rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-1--xs {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-2--xs {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-3--xs {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-4--xs {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-5--xs {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-6--xs {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-7--xs {
+    margin-bottom: 7rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-8--xs {
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-9--xs {
+    margin-bottom: 9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-10--xs {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-11--xs {
+    margin-bottom: 11rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-12--xs {
+    margin-bottom: 12rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-13--xs {
+    margin-bottom: 13rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-14--xs {
+    margin-bottom: 14rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-15--xs {
+    margin-bottom: 15rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-16--xs {
+    margin-bottom: 16rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-17--xs {
+    margin-bottom: 17rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-18--xs {
+    margin-bottom: 18rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-19--xs {
+    margin-bottom: 19rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 85, ../sass/_mixin.scss */
+  .margin-bottom-20--xs {
+    margin-bottom: 20rem;
+  }
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-1 {
+  padding-top: 1rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-2 {
+  padding-top: 2rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-3 {
+  padding-top: 3rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-4 {
+  padding-top: 4rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-5 {
+  padding-top: 5rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-6 {
+  padding-top: 6rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-7 {
+  padding-top: 7rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-8 {
+  padding-top: 8rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-9 {
+  padding-top: 9rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-10 {
+  padding-top: 10rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-11 {
+  padding-top: 11rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-12 {
+  padding-top: 12rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-13 {
+  padding-top: 13rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-14 {
+  padding-top: 14rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-15 {
+  padding-top: 15rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-16 {
+  padding-top: 16rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-17 {
+  padding-top: 17rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-18 {
+  padding-top: 18rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-19 {
+  padding-top: 19rem;
+}
+
+/* line 92, ../sass/_mixin.scss */
+.padding-top-20 {
+  padding-top: 20rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-1 {
+  padding-bottom: 1rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-2 {
+  padding-bottom: 2rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-3 {
+  padding-bottom: 3rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-4 {
+  padding-bottom: 4rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-5 {
+  padding-bottom: 5rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-6 {
+  padding-bottom: 6rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-7 {
+  padding-bottom: 7rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-8 {
+  padding-bottom: 8rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-9 {
+  padding-bottom: 9rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-10 {
+  padding-bottom: 10rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-11 {
+  padding-bottom: 11rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-12 {
+  padding-bottom: 12rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-13 {
+  padding-bottom: 13rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-14 {
+  padding-bottom: 14rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-15 {
+  padding-bottom: 15rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-16 {
+  padding-bottom: 16rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-17 {
+  padding-bottom: 17rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-18 {
+  padding-bottom: 18rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-19 {
+  padding-bottom: 19rem;
+}
+
+/* line 98, ../sass/_mixin.scss */
+.padding-bottom-20 {
+  padding-bottom: 20rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-1 {
+  padding-left: 1rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-2 {
+  padding-left: 2rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-3 {
+  padding-left: 3rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-4 {
+  padding-left: 4rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-5 {
+  padding-left: 5rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-6 {
+  padding-left: 6rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-7 {
+  padding-left: 7rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-8 {
+  padding-left: 8rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-9 {
+  padding-left: 9rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-10 {
+  padding-left: 10rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-11 {
+  padding-left: 11rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-12 {
+  padding-left: 12rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-13 {
+  padding-left: 13rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-14 {
+  padding-left: 14rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-15 {
+  padding-left: 15rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-16 {
+  padding-left: 16rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-17 {
+  padding-left: 17rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-18 {
+  padding-left: 18rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-19 {
+  padding-left: 19rem;
+}
+
+/* line 104, ../sass/_mixin.scss */
+.padding-left-20 {
+  padding-left: 20rem;
+}
+
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-1--xs {
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-2--xs {
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-3--xs {
+    padding-left: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-4--xs {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-5--xs {
+    padding-left: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-6--xs {
+    padding-left: 6rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-7--xs {
+    padding-left: 7rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-8--xs {
+    padding-left: 8rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-9--xs {
+    padding-left: 9rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-10--xs {
+    padding-left: 10rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-11--xs {
+    padding-left: 11rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-12--xs {
+    padding-left: 12rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-13--xs {
+    padding-left: 13rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-14--xs {
+    padding-left: 14rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-15--xs {
+    padding-left: 15rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-16--xs {
+    padding-left: 16rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-17--xs {
+    padding-left: 17rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-18--xs {
+    padding-left: 18rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-19--xs {
+    padding-left: 19rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 111, ../sass/_mixin.scss */
+  .padding-left-20--xs {
+    padding-left: 20rem;
+  }
+}
+/* line 118, ../sass/_mixin.scss */
+.padding-right-1 {
+  padding-right: 1rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-2 {
+  padding-right: 2rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-3 {
+  padding-right: 3rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-4 {
+  padding-right: 4rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-5 {
+  padding-right: 5rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-6 {
+  padding-right: 6rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-7 {
+  padding-right: 7rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-8 {
+  padding-right: 8rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-9 {
+  padding-right: 9rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-10 {
+  padding-right: 10rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-11 {
+  padding-right: 11rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-12 {
+  padding-right: 12rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-13 {
+  padding-right: 13rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-14 {
+  padding-right: 14rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-15 {
+  padding-right: 15rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-16 {
+  padding-right: 16rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-17 {
+  padding-right: 17rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-18 {
+  padding-right: 18rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-19 {
+  padding-right: 19rem;
+}
+
+/* line 118, ../sass/_mixin.scss */
+.padding-right-20 {
+  padding-right: 20rem;
+}
+
+@font-face {
+  font-family: "muliitalic";
+  src: url("/Resources/Fonts/muli-italic-webfont.eot");
+  src: url("/Resources/Fonts/muli-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/muli-italic-webfont.woff") format("woff"), url("/Resources/Fonts/muli-italic-webfont.ttf") format("truetype"), url("/Resources/Fonts/muli-italic-webfont.svg#muliitalic") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "mulilight";
+  src: url("/Resources/Fonts/muli-light-webfont.eot");
+  src: url("/Resources/Fonts/muli-light-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/muli-light-webfont.woff") format("woff"), url("/Resources/Fonts/muli-light-webfont.ttf") format("truetype"), url("/Resources/Fonts/muli-light-webfont.svg#mulilight") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "mulilight_italic";
+  src: url("/Resources/Fonts/muli-lightitalic-webfont.eot");
+  src: url("/Resources/Fonts/muli-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/muli-lightitalic-webfont.woff") format("woff"), url("/Resources/Fonts/muli-lightitalic-webfont.ttf") format("truetype"), url("/Resources/Fonts/muli-lightitalic-webfont.svg#mulilight_italic") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "muliregular";
+  src: url("/Resources/Fonts/muli-regular-webfont.eot");
+  src: url("/Resources/Fonts/muli-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/muli-regular-webfont.woff") format("woff"), url("/Resources/Fonts/muli-regular-webfont.ttf") format("truetype"), url("/Resources/Fonts/muli-regular-webfont.svg#muliregular") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "mulisemibold";
+  src: url("/Resources/Fonts/muli-semibold-webfont.eot");
+  src: url("/Resources/Fonts/muli-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/muli-semibold-webfont.woff") format("woff"), url("/Resources/Fonts/muli-semibold-webfont.ttf") format("truetype"), url("/Resources/Fonts/muli-semibold-webfont.svg#mulisemibold") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "mulibold";
+  src: url("/Resources/Fonts/muli-bold-webfont.eot");
+  src: url("/Resources/Fonts/muli-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/muli-bold-webfont.woff") format("woff"), url("/Resources/Fonts/muli-bold-webfont.ttf") format("truetype"), url("/Resources/Fonts/muli-bold-webfont.svg#mulibold") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "gobold_boldregular";
+  src: url("/Resources/Fonts/gobold_bold-webfont.eot");
+  src: url("/Resources/Fonts/gobold_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/gobold_bold-webfont.woff") format("woff"), url("/Resources/Fonts/gobold_bold-webfont.ttf") format("truetype"), url("/Resources/Fonts/gobold_bold-webfont.svg#gobold_boldregular") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "gobold_thin_lightregular";
+  src: url("/Resources/Fonts/gobold_light-webfont.eot");
+  src: url("/Resources/Fonts/gobold_light-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/gobold_light-webfont.woff") format("woff"), url("/Resources/Fonts/gobold_light-webfont.ttf") format("truetype"), url("/Resources/Fonts/gobold_light-webfont.svg#gobold_thin_lightregular") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "goboldregular";
+  src: url("/Resources/Fonts/gobold_regular-webfont.eot");
+  src: url("/Resources/Fonts/gobold_regular-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/gobold_regular-webfont.woff") format("woff"), url("/Resources/Fonts/gobold_regular-webfont.ttf") format("truetype"), url("/Resources/Fonts/gobold_regular-webfont.svg#goboldregular") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "gobold_thinregular";
+  src: url("/Resources/Fonts/gobold_thin-webfont.eot");
+  src: url("/Resources/Fonts/gobold_thin-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/gobold_thin-webfont.woff") format("woff"), url("/Resources/Fonts/gobold_thin-webfont.ttf") format("truetype"), url("/Resources/Fonts/gobold_thin-webfont.svg#gobold_thinregular") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/Resources/Fonts/fontawesome-webfont.eot");
+  src: url("/Resources/Fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/Resources/Fonts/fontawesome-webfont.woff") format("woff"), url("/Resources/Fonts/fontawesome-webfont.ttf") format("truetype"), url("/Resources/Fonts/fontawesome-webfont.svg#FontAwesome") format("svg");
+  font-weight: "normal";
+  font-style: "normal";
+}
+/* line 22, ../sass/_fonts.scss */
+.font-10 {
+  font-size: 1rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-12 {
+  font-size: 1.2rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-13 {
+  font-size: 1.3rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-14 {
+  font-size: 1.4rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-16 {
+  font-size: 1.6rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-18 {
+  font-size: 1.8rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-20 {
+  font-size: 2rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-22 {
+  font-size: 2.2rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-24 {
+  font-size: 2.4rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-26 {
+  font-size: 2.6rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-28 {
+  font-size: 2.8rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-30 {
+  font-size: 3rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-32 {
+  font-size: 3.2rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-36 {
+  font-size: 3.6rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-38 {
+  font-size: 3.8rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-48 {
+  font-size: 4.8rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-49 {
+  font-size: 4.9rem;
+}
+
+/* line 22, ../sass/_fonts.scss */
+.font-65 {
+  font-size: 6.5rem;
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-10--xs {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-12--xs {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-13--xs {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-14--xs {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-16--xs {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-18--xs {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-20--xs {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-22--xs {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-24--xs {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-26--xs {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-28--xs {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-30--xs {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-32--xs {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-36--xs {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-38--xs {
+    font-size: 3.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-48--xs {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-49--xs {
+    font-size: 4.9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 28, ../sass/_fonts.scss */
+  .font-65--xs {
+    font-size: 6.5rem;
+  }
+}
+
+/* line 2, ../sass/_flex.scss */
+.display-flex {
+  display: flex;
+}
+
+/* line 6, ../sass/_flex.scss */
+.display-inline-flex {
+  display: inline-flex;
+}
+
+/* line 10, ../sass/_flex.scss */
+.layout-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 15, ../sass/_flex.scss */
+.layout-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  /* line 20, ../sass/_flex.scss */
+  .layout-column--xs {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 26, ../sass/_flex.scss */
+  .layout-column--sm {
+    flex-direction: column;
+  }
+}
+
+/* line 32, ../sass/_flex.scss */
+.align-items-start {
+  align-items: flex-start;
+}
+
+/* line 36, ../sass/_flex.scss */
+.align-items-end {
+  align-items: flex-end;
+}
+
+/* line 40, ../sass/_flex.scss */
+.align-items-center {
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  /* line 44, ../sass/_flex.scss */
+  .align-items-center--xs {
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 50, ../sass/_flex.scss */
+  .align-items-initial--xs {
+    align-items: initial;
+  }
+}
+
+/* line 56, ../sass/_flex.scss */
+.align-items-stretch {
+  align-items: stretch;
+}
+
+/* line 60, ../sass/_flex.scss */
+.align-items-baseline {
+  align-items: baseline;
+}
+
+/* line 64, ../sass/_flex.scss */
+.align-self-center {
+  align-self: center;
+}
+
+/* line 68, ../sass/_flex.scss */
+.align-self-end {
+  align-self: center;
+}
+
+/* line 72, ../sass/_flex.scss */
+.justify-content-between {
+  justify-content: space-between;
+}
+
+/* line 76, ../sass/_flex.scss */
+.justify-content-center {
+  justify-content: center;
+}
+
+/* line 80, ../sass/_flex.scss */
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+/* line 84, ../sass/_flex.scss */
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+/* line 88, ../sass/_flex.scss */
+.justify-content-around {
+  justify-content: space-around;
+}
+
+/* line 92, ../sass/_flex.scss */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* line 96, ../sass/_flex.scss */
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+/* line 1, ../sass/_global.scss */
+.stucchi-project {
+  overflow-x: hidden;
+  font-size: 62.5%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+@media (max-width: 1200px) {
+  /* line 1, ../sass/_global.scss */
+  .stucchi-project {
+    font-size: 55%;
+  }
+}
+
+/* line 13, ../sass/_global.scss */
+.stucchi-project {
+  /*a,
+  button,
+  div,
+  h1,
+  h2,
+  h3,
+  h4,
+  li,
+  p,
+  span {
+      color: inherit;
+      font-size: inherit;
+      font-family: inherit;
+      line-height: 1.3em;
+  }*/
+}
+/* line 14, ../sass/_global.scss */
+.stucchi-project h1,
+.stucchi-project h2,
+.stucchi-project h3,
+.stucchi-project h4,
+.stucchi-project h5,
+.stucchi-project h6,
+.stucchi-project p,
+.stucchi-project a,
+.stucchi-project ul,
+.stucchi-project ol,
+.stucchi-project input,
+.stucchi-project textarea {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+/* line 31, ../sass/_global.scss */
+.stucchi-project input,
+.stucchi-project input:focus,
+.stucchi-project input:visited,
+.stucchi-project input:hover,
+.stucchi-project input:active,
+.stucchi-project textarea,
+.stucchi-project textarea:focus,
+.stucchi-project textarea:visited,
+.stucchi-project textarea:hover,
+.stucchi-project textarea:active,
+.stucchi-project select,
+.stucchi-project select:focus,
+.stucchi-project select:visited,
+.stucchi-project select:hover,
+.stucchi-project select:active,
+.stucchi-project button {
+  border: none;
+  border-color: transparent;
+  outline: none;
+  outline-offset: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-shadow: none;
+  outline-width: 0;
+}
+/* line 76, ../sass/_global.scss */
+.stucchi-project iframe {
+  border: 0;
+}
+/* line 81, ../sass/_global.scss */
+.stucchi-project a:hover, .stucchi-project a:focus, .stucchi-project a:visited, .stucchi-project a:active {
+  text-decoration: none;
+  /*border: none;
+  outline: none;
+  text-shadow: none;*/
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+}
+/* line 103, ../sass/_global.scss */
+.stucchi-project h2 {
+  color: #eb008b;
+  text-align: left;
+  font-family: "mulilight";
+  padding-bottom: 2rem;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+}
+/* line 115, ../sass/_global.scss */
+.stucchi-project h3 {
+  color: #eb008b;
+  text-align: left;
+  font-family: "mulilight";
+  padding-bottom: 2rem;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+/* line 137, ../sass/_global.scss */
+.stucchi-project p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: "muliregular";
+  color: #000;
+}
+@media (max-width: 767px) {
+  /* line 137, ../sass/_global.scss */
+  .stucchi-project p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+/* line 149, ../sass/_global.scss */
+.stucchi-project a {
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  -moz-transition: all .3s;
+}
+/* line 158, ../sass/_global.scss */
+.stucchi-project .flexbox {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+/* line 178, ../sass/_global.scss */
+.stucchi-project .flexbox.row:before {
+  content: none;
+}
+/* line 184, ../sass/_global.scss */
+.stucchi-project .left {
+  float: left;
+}
+/* line 188, ../sass/_global.scss */
+.stucchi-project .right {
+  float: right;
+}
+/* line 192, ../sass/_global.scss */
+.stucchi-project .absolute {
+  position: absolute;
+}
+/* line 196, ../sass/_global.scss */
+.stucchi-project .relative {
+  position: relative;
+}
+/* line 200, ../sass/_global.scss */
+.stucchi-project .display-block {
+  display: block;
+}
+/* line 204, ../sass/_global.scss */
+.stucchi-project .display-inline-block {
+  display: inline-block;
+}
+/* line 208, ../sass/_global.scss */
+.stucchi-project .text-uppercase {
+  text-transform: uppercase;
+}
+/* line 212, ../sass/_global.scss */
+.stucchi-project .text-center {
+  text-align: center;
+}
+/* line 216, ../sass/_global.scss */
+.stucchi-project .text-left {
+  text-align: center;
+}
+/* line 220, ../sass/_global.scss */
+.stucchi-project .text-right {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 224, ../sass/_global.scss */
+  .stucchi-project .display-xs {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  /* line 230, ../sass/_global.scss */
+  .stucchi-project .text-center-xs {
+    text-align: center;
+  }
+}
+/* line 236, ../sass/_global.scss */
+.stucchi-project .full-width {
+  width: 100%;
+}
+/* line 240, ../sass/_global.scss */
+.stucchi-project .full-height {
+  height: 100%;
+}
+/* line 244, ../sass/_global.scss */
+.stucchi-project .with-shadow {
+  box-shadow: 3px 3px 2px #000;
+}
+/* line 248, ../sass/_global.scss */
+.stucchi-project .hidden-y {
+  overflow-y: hidden;
+}
+/* line 252, ../sass/_global.scss */
+.stucchi-project .no-transition {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/* line 259, ../sass/_global.scss */
+.stucchi-project .no-margin {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  /* line 263, ../sass/_global.scss */
+  .stucchi-project .no-padding-xs {
+    padding: 0;
+  }
+}
+/* line 269, ../sass/_global.scss */
+.stucchi-project .white-overlay {
+  background-color: rgba(255, 255, 255, 0.4);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+/* line 276, ../sass/_global.scss */
+.stucchi-project .red-bk {
+  background-color: palette(red);
+}
+/* line 280, ../sass/_global.scss */
+.stucchi-project .white-bk {
+  background-color: palette(white);
+}
+/* line 284, ../sass/_global.scss */
+.stucchi-project .border-bottom-red--2 {
+  border-bottom: 2px solid palette(red);
+}
+@media (max-width: 767px) {
+  /* line 288, ../sass/_global.scss */
+  .stucchi-project .border-bottom-none--xs {
+    border-bottom: none;
+  }
+}
+/* line 293, ../sass/_global.scss */
+.stucchi-project .object-fit-cover {
+  object-fit: cover;
+}
+/* line 297, ../sass/_global.scss */
+.stucchi-project .object-position-center {
+  object-position: center;
+}
+/* line 301, ../sass/_global.scss */
+.stucchi-project .background-position {
+  height: 100% !important;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+/* line 310, ../sass/_global.scss */
+.stucchi-project .whitespace-nowrap {
+  white-space: nowrap;
+}
+/* line 314, ../sass/_global.scss */
+.stucchi-project .text-underline {
+  text-decoration: underline;
+}
+/* line 318, ../sass/_global.scss */
+.stucchi-project .font-bold {
+  font-weight: bold;
+}
+/* line 322, ../sass/_global.scss */
+.stucchi-project .button-white {
+  border: 1px solid #fff;
+  max-width: 14.6rem;
+  display: block;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "muliregular";
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+/* line 336, ../sass/_global.scss */
+.stucchi-project .button-white.pink {
+  color: #eb008b;
+  border: 1px solid #eb008b;
+}
+/* line 339, ../sass/_global.scss */
+.stucchi-project .button-white.pink:hover {
+  background: transparent;
+  border: 1px solid #eb008b;
+  color: #eb008b;
+}
+/* line 345, ../sass/_global.scss */
+.stucchi-project .button-white:hover {
+  background: #eb008b;
+  border: 1px solid #eb008b;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  /* line 322, ../sass/_global.scss */
+  .stucchi-project .button-white {
+    max-width: 16rem;
+    font-size: 1.6rem;
+    height: 3.3rem;
+    line-height: 3.3rem;
+  }
+}
+/* line 357, ../sass/_global.scss */
+.stucchi-project .button-white:active {
+  background: inherit;
+  border: 1px solid #fff;
+  color: #fff;
+}
+/* line 362, ../sass/_global.scss */
+.stucchi-project .button-white:focus {
+  background: inherit;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* master sass */
+/* line 18, ../sass/main.scss */
+body.stucchi-project.sfPageEditor {
+  font-size: 14px;
+}
+
+/* line 26, ../sass/main.scss */
+.stucchi-project {
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /* checked mark aspect changes */
+}
+/* line 29, ../sass/main.scss */
+.stucchi-project .nav-fix .nav-scroll {
+  opacity: 1;
+}
+/* line 34, ../sass/main.scss */
+.stucchi-project header {
+  width: 100%;
+  z-index: 999;
+  padding: 1.6rem 0;
+  background: #fff;
+}
+@media (max-width: 767px) {
+  /* line 34, ../sass/main.scss */
+  .stucchi-project header {
+    padding: 1rem 0;
+  }
+}
+/* line 42, ../sass/main.scss */
+.stucchi-project header .logo {
+  display: block;
+  float: left;
+  margin-left: 2rem;
+}
+@media (max-width: 767px) {
+  /* line 46, ../sass/main.scss */
+  .stucchi-project header .logo img {
+    width: 18rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 42, ../sass/main.scss */
+  .stucchi-project header .logo {
+    margin-left: 0;
+  }
+}
+/* line 55, ../sass/main.scss */
+.stucchi-project header .menu-mobile {
+  display: none;
+}
+@media (max-width: 991px) {
+  /* line 55, ../sass/main.scss */
+  .stucchi-project header .menu-mobile {
+    display: block;
+  }
+  /* line 59, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .button-menu {
+    position: absolute;
+    right: 5rem;
+    top: 1rem;
+    width: 5.8rem;
+    float: right;
+  }
+  /* line 65, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .button-menu::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 4.4rem;
+    width: 5.8rem;
+    background: linear-gradient(to bottom, #eb008b, #eb008b 18%, white 19%, white 42%, #eb008b 42%, #eb008b 60%, white 60%, white 82%, #eb008b 80%, #eb008b 100%);
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  /* line 65, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .button-menu::before {
+    height: 3.4rem;
+    width: 4.8rem;
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  /* line 59, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .button-menu {
+    top: 1.5rem;
+    right: .5rem;
+  }
+}
+@media (max-width: 991px) {
+  /* line 83, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .button-search {
+    color: #eb008b;
+    font-size: 4.2rem;
+    position: absolute;
+    right: 14rem;
+    top: .5rem;
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  /* line 83, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .button-search {
+    font-size: 3.2rem;
+    right: 8rem;
+    top: 1rem;
+  }
+}
+@media (max-width: 991px) {
+  /* line 95, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .search-box-hide {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 9.5rem;
+    background: white;
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 5rem;
+    top: -1.6rem;
+  }
+  /* line 108, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .search-box-hide.open {
+    display: block;
+    opacity: 1;
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  /* line 95, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .search-box-hide {
+    padding: 0 2rem;
+    height: 8.1rem;
+  }
+}
+@media (max-width: 991px) {
+  /* line 116, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .search-box-hide input {
+    height: 5rem;
+    width: 70%;
+    color: #eb008b;
+    font-size: 3rem;
+    line-height: 5rem;
+    background: transparent;
+    margin: 3rem 0 0 0;
+    opacity: 1;
+    font-family: "muliregular";
+    float: left;
+  }
+  /* line 44, ../sass/_mixin.scss */
+  .stucchi-project header .menu-mobile .search-box-hide input::-webkit-input-placeholder {
+    color: #eb008b;
+    opacity: 1;
+  }
+  /* line 45, ../sass/_mixin.scss */
+  .stucchi-project header .menu-mobile .search-box-hide input:-moz-placeholder {
+    color: #eb008b;
+    opacity: 1;
+  }
+  /* line 46, ../sass/_mixin.scss */
+  .stucchi-project header .menu-mobile .search-box-hide input::-moz-placeholder {
+    color: #eb008b;
+    opacity: 1;
+  }
+  /* line 47, ../sass/_mixin.scss */
+  .stucchi-project header .menu-mobile .search-box-hide input:-ms-input-placeholder {
+    color: #eb008b;
+    opacity: 1;
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  /* line 116, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .search-box-hide input {
+    width: 75%;
+    font-size: 2.5rem;
+    margin: 2.2rem 0 0 0;
+  }
+}
+@media (max-width: 991px) {
+  /* line 137, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .search-box-hide .submit {
+    color: transparent;
+    border: none;
+    background: transparent;
+    font-size: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  /* line 146, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .search-box-hide .close-btn {
+    color: #eb008b;
+    font-size: 4rem;
+    opacity: 1;
+    margin: 2.5rem 0 0 0;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    float: right;
+    text-align: right;
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  /* line 146, ../sass/main.scss */
+  .stucchi-project header .menu-mobile .search-box-hide .close-btn {
+    font-size: 3rem;
+  }
+}
+
+/* line 163, ../sass/main.scss */
+.stucchi-project header .button-open-menu {
+  display: none;
+}
+@media (max-width: 991px) {
+  /* line 163, ../sass/main.scss */
+  .stucchi-project header .button-open-menu {
+    display: block;
+    position: relative;
+    float: right;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 0;
+    background: none;
+    border: none;
+    color: #fff;
+  }
+}
+/* line 177, ../sass/main.scss */
+.stucchi-project header .menu {
+  margin-top: 2.5rem;
+}
+@media (max-width: 991px) {
+  /* line 177, ../sass/main.scss */
+  .stucchi-project header .menu {
+    position: absolute;
+    top: 7.1rem;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 9999;
+    padding: 0;
+    border-top: 1px solid #dbdbdb;
+    background: white;
+    display: none;
+  }
+  /* line 193, ../sass/main.scss */
+  .stucchi-project header .menu.open {
+    display: block;
+  }
+}
+/* line 197, ../sass/main.scss */
+.stucchi-project header .menu li {
+  float: left;
+  list-style: none;
+  position: relative;
+  margin-left: 1.7rem;
+}
+/* line 202, ../sass/main.scss */
+.stucchi-project header .menu li.mobile {
+  display: none;
+}
+@media (max-width: 991px) {
+  /* line 202, ../sass/main.scss */
+  .stucchi-project header .menu li.mobile {
+    display: block;
+  }
+}
+@media (max-width: 991px) {
+  /* line 211, ../sass/main.scss */
+  .stucchi-project header .menu li.open .carrot::after {
+    content: "\f078";
+    font-family: FontAwesome;
+    float: right;
+    color: #eb008b;
+  }
+}
+@media (max-width: 991px) {
+  /* line 197, ../sass/main.scss */
+  .stucchi-project header .menu li {
+    display: block;
+    text-align: left;
+    float: none;
+    margin: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #e2e2e2;
+  }
+}
+/* line 232, ../sass/main.scss */
+.stucchi-project header .menu li:hover ul {
+  display: block;
+}
+/* line 235, ../sass/main.scss */
+.stucchi-project header .menu li:hover::after {
+  content: '';
+  background: #eb008b;
+  height: 2px;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  /* line 235, ../sass/main.scss */
+  .stucchi-project header .menu li:hover::after {
+    content: none;
+  }
+}
+/* line 252, ../sass/main.scss */
+.stucchi-project header .menu li a {
+  color: #000;
+  font-family: "mulibold";
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  position: relative;
+}
+@media (max-width: 991px) {
+  /* line 252, ../sass/main.scss */
+  .stucchi-project header .menu li a {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-family: "mulibold";
+    text-align: left;
+    padding: 2rem 4rem;
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  /* line 252, ../sass/main.scss */
+  .stucchi-project header .menu li a {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 1rem 3rem;
+  }
+}
+@media (max-width: 991px) {
+  /* line 281, ../sass/main.scss */
+  .stucchi-project header .menu li a.carrot::after {
+    content: "\f054";
+    font-family: FontAwesome;
+    float: right;
+    color: #eb008b;
+  }
+}
+/* line 290, ../sass/main.scss */
+.stucchi-project header .menu li ul {
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 2.6rem;
+  padding: 2rem 1rem 1rem;
+  z-index: 99;
+}
+@media (max-width: 991px) {
+  /* line 290, ../sass/main.scss */
+  .stucchi-project header .menu li ul {
+    position: relative;
+    top: 0;
+    padding: 0;
+    background: #f9f9f9;
+  }
+}
+/* line 303, ../sass/main.scss */
+.stucchi-project header .menu li ul li {
+  float: none;
+  margin-left: 0;
+  margin-bottom: 1rem;
+}
+/* line 308, ../sass/main.scss */
+.stucchi-project header .menu li ul li:hover::after {
+  content: none;
+}
+@media (max-width: 991px) {
+  /* line 303, ../sass/main.scss */
+  .stucchi-project header .menu li ul li {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+/* line 317, ../sass/main.scss */
+.stucchi-project header .menu li ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: "mulilight";
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+/* line 323, ../sass/main.scss */
+.stucchi-project header .menu li ul li a:hover {
+  color: #eb008b;
+}
+/* line 325, ../sass/main.scss */
+.stucchi-project header .menu li ul li a:hover::after {
+  content: none;
+}
+@media (max-width: 991px) {
+  /* line 317, ../sass/main.scss */
+  .stucchi-project header .menu li ul li a {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-family: "mulibold";
+    text-align: left;
+    padding: 2rem 8rem;
+    display: block;
+    color: #eb008b;
+  }
+}
+@media (max-width: 767px) {
+  /* line 317, ../sass/main.scss */
+  .stucchi-project header .menu li ul li a {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 1rem 6rem;
+  }
+}
+/* line 348, ../sass/main.scss */
+.stucchi-project header .menu-right {
+  margin-right: 1rem;
+  margin-top: 2.6rem;
+}
+@media (max-width: 991px) {
+  /* line 348, ../sass/main.scss */
+  .stucchi-project header .menu-right {
+    display: none;
+  }
+}
+/* line 354, ../sass/main.scss */
+.stucchi-project header .menu-right li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+/* line 358, ../sass/main.scss */
+.stucchi-project header .menu-right li a {
+  color: #eb008b;
+  font-family: "muliregular";
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-left: 1.5rem;
+}
+/* line 365, ../sass/main.scss */
+.stucchi-project header .menu-right li input {
+  font-family: "muliregular";
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 8.5rem;
+  border: none;
+  padding: 0 2.5rem 0 0;
+  color: #eb008b;
+  text-indent: .2rem;
+  outline: none;
+  border-radius: 0;
+  -webkit-transition: all .25s ease-out;
+  transition: all .25s ease-out;
+}
+/* line 44, ../sass/_mixin.scss */
+.stucchi-project header .menu-right li input::-webkit-input-placeholder {
+  color: #eb008b;
+  opacity: 1;
+}
+/* line 45, ../sass/_mixin.scss */
+.stucchi-project header .menu-right li input:-moz-placeholder {
+  color: #eb008b;
+  opacity: 1;
+}
+/* line 46, ../sass/_mixin.scss */
+.stucchi-project header .menu-right li input::-moz-placeholder {
+  color: #eb008b;
+  opacity: 1;
+}
+/* line 47, ../sass/_mixin.scss */
+.stucchi-project header .menu-right li input:-ms-input-placeholder {
+  color: #eb008b;
+  opacity: 1;
+}
+/* line 385, ../sass/main.scss */
+.stucchi-project header .menu-right li input:active {
+  color: #eb008b;
+  width: 12rem;
+  border-bottom: 1px solid #eb008b;
+}
+/* line 390, ../sass/main.scss */
+.stucchi-project header .menu-right li input:focus {
+  color: #eb008b;
+  width: 12rem;
+  border-bottom: 1px solid #eb008b;
+}
+/* line 396, ../sass/main.scss */
+.stucchi-project header .menu-right li button {
+  position: absolute;
+  right: 0;
+  top: -.2rem;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  color: #eb008b;
+  width: 3rem;
+  padding: 0 6px;
+  overflow: hidden;
+  background: transparent;
+}
+/* line 412, ../sass/main.scss */
+.stucchi-project .hero-homepage-widget {
+  background: url(/Resources/Images/banner/bg-default.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: top center;
+  height: 39rem;
+}
+@media (max-width: 991px) {
+  /* line 412, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget {
+    margin-bottom: 26.4rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 412, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget {
+    height: 26rem;
+    margin-bottom: 16.4rem;
+  }
+}
+/* line 425, ../sass/main.scss */
+.stucchi-project .hero-homepage-widget .container {
+  height: 100%;
+}
+/* line 428, ../sass/main.scss */
+.stucchi-project .hero-homepage-widget .hero-image {
+  bottom: 0;
+  right: 20rem;
+}
+@media (max-width: 991px) {
+  /* line 428, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .hero-image {
+    right: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 428, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .hero-image {
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 100%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 428, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .hero-image {
+    height: auto;
+  }
+}
+/* line 444, ../sass/main.scss */
+.stucchi-project .hero-homepage-widget .vep-ico {
+  top: 5rem;
+  right: 20rem;
+}
+@media (max-width: 991px) {
+  /* line 444, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .vep-ico {
+    right: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 444, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .vep-ico {
+    right: 2rem;
+    top: 3rem;
+    width: 10rem;
+  }
+}
+/* line 456, ../sass/main.scss */
+.stucchi-project .hero-homepage-widget .box {
+  max-width: 27rem;
+  overflow: hidden;
+  position: absolute;
+  left: 14rem;
+  top: 10rem;
+  z-index: 999;
+}
+@media (max-width: 1200px) {
+  /* line 456, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .box {
+    left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  /* line 456, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .box {
+    top: 100%;
+    padding: 6rem 1.5rem;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  /* line 456, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .box {
+    padding: 3rem 1.5rem;
+  }
+}
+/* line 477, ../sass/main.scss */
+.stucchi-project .hero-homepage-widget .box h2 {
+  font-family: "gobold_boldregular";
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding-bottom: 0;
+}
+@media (max-width: 991px) {
+  /* line 477, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .box h2 {
+    font-size: 4.8rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 477, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .box h2 {
+    font-size: 3rem;
+  }
+}
+/* line 490, ../sass/main.scss */
+.stucchi-project .hero-homepage-widget .box h2 span {
+  color: #eb008b;
+}
+/* line 494, ../sass/main.scss */
+.stucchi-project .hero-homepage-widget .box p {
+  color: #4d4d4d;
+  font-family: "gobold_thinregular";
+  line-height: 2.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 991px) {
+  /* line 494, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .box p {
+    font-size: 3.6rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 494, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .box p {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+}
+/* line 511, ../sass/main.scss */
+.stucchi-project .hero-homepage-widget .box .learn-more {
+  color: #eb008b;
+  font-family: "mulisemibold";
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+}
+@media (max-width: 991px) {
+  /* line 511, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .box .learn-more {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 511, ../sass/main.scss */
+  .stucchi-project .hero-homepage-widget .box .learn-more {
+    font-size: 1.5rem;
+  }
+}
+/* line 527, ../sass/main.scss */
+.stucchi-project .pink-line-widget {
+  background: #eb008b;
+  width: 100%;
+  padding: 3rem 1.5rem;
+}
+/* line 532, ../sass/main.scss */
+.stucchi-project .pink-line-widget h1 {
+  color: #fff;
+  font-family: "mulibold";
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 78rem;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  /* line 532, ../sass/main.scss */
+  .stucchi-project .pink-line-widget h1 {
+    text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  /* line 532, ../sass/main.scss */
+  .stucchi-project .pink-line-widget h1 {
+    font-size: 2.2rem;
+    margin-bottom: .4rem;
+  }
+}
+/* line 549, ../sass/main.scss */
+.stucchi-project .pink-line-widget p {
+  color: #fff;
+  font-family: "muliregular";
+  line-height: 2.4rem;
+  font-size: 1.8rem;
+  text-align: center;
+  max-width: 78rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+@media (max-width: 991px) {
+  /* line 549, ../sass/main.scss */
+  .stucchi-project .pink-line-widget p {
+    text-align: left;
+    line-height: 2.4rem;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 549, ../sass/main.scss */
+  .stucchi-project .pink-line-widget p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+/* line 569, ../sass/main.scss */
+.stucchi-project .pink-line-widget .button-white {
+  margin: 0 auto;
+}
+/* line 571, ../sass/main.scss */
+.stucchi-project .pink-line-widget .button-white:hover {
+  border: 1px solid #fff;
+}
+/* line 574, ../sass/main.scss */
+.stucchi-project .pink-line-widget .button-white a {
+  color: #fff;
+}
+@media (max-width: 767px) {
+  /* line 578, ../sass/main.scss */
+  .stucchi-project .pink-line-widget.contact-btn {
+    padding: 1.5rem 0 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 585, ../sass/main.scss */
+  .stucchi-project .column-three-product {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+}
+/* line 590, ../sass/main.scss */
+.stucchi-project .column-three-product .box {
+  margin-bottom: 5rem;
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 590, ../sass/main.scss */
+  .stucchi-project .column-three-product .box {
+    margin-bottom: 2rem;
+  }
+}
+/* line 597, ../sass/main.scss */
+.stucchi-project .column-three-product .box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 602, ../sass/main.scss */
+.stucchi-project .column-three-product .box p {
+  font-family: "mulisemibold";
+  color: #000;
+  text-align: left;
+}
+@media (max-width: 991px) {
+  /* line 602, ../sass/main.scss */
+  .stucchi-project .column-three-product .box p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 602, ../sass/main.scss */
+  .stucchi-project .column-three-product .box p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+/* line 615, ../sass/main.scss */
+.stucchi-project .column-three-product .box span {
+  opacity: 0;
+  visibility: hidden;
+  border: 1px solid #eb008b;
+  font-size: 1.6rem;
+  font-family: "mulilight";
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  max-width: 14rem;
+  display: block;
+  color: #eb008b;
+  position: absolute;
+  padding: 0 1rem;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  /* line 615, ../sass/main.scss */
+  .stucchi-project .column-three-product .box span {
+    transform: translate(-50%, -100%);
+    top: 45%;
+  }
+}
+/* line 639, ../sass/main.scss */
+.stucchi-project .column-three-product .box img {
+  margin: 0 auto;
+}
+/* line 643, ../sass/main.scss */
+.stucchi-project .column-three-product .box:hover span {
+  opacity: 1;
+  visibility: visible;
+}
+/* line 647, ../sass/main.scss */
+.stucchi-project .column-three-product .box:hover p {
+  color: #eb008b;
+}
+/* line 650, ../sass/main.scss */
+.stucchi-project .column-three-product .box:hover img {
+  opacity: .5;
+}
+/* line 657, ../sass/main.scss */
+.stucchi-project .column-four-icons-widget {
+  width: 100%;
+  background: #ececec;
+  padding: 3.5rem 0 3.2rem;
+}
+@media (max-width: 767px) {
+  /* line 657, ../sass/main.scss */
+  .stucchi-project .column-four-icons-widget {
+    padding: 2.2rem 0;
+  }
+}
+/* line 664, ../sass/main.scss */
+.stucchi-project .column-four-icons-widget .box {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 664, ../sass/main.scss */
+  .stucchi-project .column-four-icons-widget .box {
+    padding: 0 .3rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 671, ../sass/main.scss */
+  .stucchi-project .column-four-icons-widget .box:first-child a img {
+    max-width: 3rem;
+  }
+}
+/* line 678, ../sass/main.scss */
+.stucchi-project .column-four-icons-widget .box a {
+  display: block;
+  max-width: 12.8rem;
+  max-height: 12.8rem;
+  line-height: 12.8rem;
+  border-radius: 50%;
+  background: #eb008b;
+  position: relative;
+  margin: 0 auto;
+}
+/* line 687, ../sass/main.scss */
+.stucchi-project .column-four-icons-widget .box a:hover {
+  background: #333;
+}
+/* line 689, ../sass/main.scss */
+.stucchi-project .column-four-icons-widget .box a:hover img {
+  filter: invert(0.5);
+  -webkit-filter: invert(0.5);
+}
+@media (max-width: 767px) {
+  /* line 678, ../sass/main.scss */
+  .stucchi-project .column-four-icons-widget .box a {
+    max-width: 8rem;
+    max-height: 8rem;
+    line-height: 8rem;
+  }
+}
+/* line 699, ../sass/main.scss */
+.stucchi-project .column-four-icons-widget .box a img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+@media (max-width: 767px) {
+  /* line 699, ../sass/main.scss */
+  .stucchi-project .column-four-icons-widget .box a img {
+    max-width: 4rem;
+  }
+}
+/* line 708, ../sass/main.scss */
+.stucchi-project .column-four-icons-widget .box a span {
+  color: #fff;
+  font-family: "mulisemibold";
+  font-size: 1.6rem;
+  z-index: 99;
+  position: relative;
+}
+@media (max-width: 991px) {
+  /* line 708, ../sass/main.scss */
+  .stucchi-project .column-four-icons-widget .box a span {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 708, ../sass/main.scss */
+  .stucchi-project .column-four-icons-widget .box a span {
+    font-size: 1.2rem;
+  }
+}
+/* line 725, ../sass/main.scss */
+.stucchi-project .background-image-widget {
+  /*background: url(/Resources/Images/banner/background-callout.jpg);*/
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  position: relative;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+@media (max-width: 767px) {
+  /* line 725, ../sass/main.scss */
+  .stucchi-project .background-image-widget {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+/* line 738, ../sass/main.scss */
+.stucchi-project .background-image-widget.align-right .box {
+  float: right;
+  max-width: 37rem;
+  margin-right: 8rem;
+  margin-left: 0;
+}
+@media (max-width: 991px) {
+  /* line 738, ../sass/main.scss */
+  .stucchi-project .background-image-widget.align-right .box {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* line 751, ../sass/main.scss */
+.stucchi-project .background-image-widget img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  /* line 751, ../sass/main.scss */
+  .stucchi-project .background-image-widget img {
+    width: auto;
+  }
+}
+/* line 761, ../sass/main.scss */
+.stucchi-project .background-image-widget .button-white {
+  min-width: 14.6rem;
+  max-width: 19.6rem;
+}
+/* line 767, ../sass/main.scss */
+.stucchi-project .background-image-widget.pink .box h3 {
+  color: #eb008b;
+}
+/* line 770, ../sass/main.scss */
+.stucchi-project .background-image-widget.pink .box .button-white {
+  border: 1px solid #eb008b;
+  color: #eb008b;
+}
+/* line 773, ../sass/main.scss */
+.stucchi-project .background-image-widget.pink .box .button-white:hover {
+  color: #fff;
+}
+/* line 779, ../sass/main.scss */
+.stucchi-project .background-image-widget .box {
+  float: left;
+  max-width: 37rem;
+  margin-left: 8rem;
+}
+/* line 784, ../sass/main.scss */
+.stucchi-project .background-image-widget .box h3 {
+  font-family: "mulilight";
+  color: #fff;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+}
+@media (max-width: 991px) {
+  /* line 784, ../sass/main.scss */
+  .stucchi-project .background-image-widget .box h3 {
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  /* line 784, ../sass/main.scss */
+  .stucchi-project .background-image-widget .box h3 {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    margin-bottom: .5rem;
+    text-align: center;
+  }
+}
+/* line 803, ../sass/main.scss */
+.stucchi-project .background-image-widget .box p {
+  font-family: "muliregular";
+  color: #fff;
+  margin-bottom: 2rem;
+  padding: 0;
+  font-size: 1.6rem;
+}
+@media (max-width: 991px) {
+  /* line 803, ../sass/main.scss */
+  .stucchi-project .background-image-widget .box p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 803, ../sass/main.scss */
+  .stucchi-project .background-image-widget .box p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+@media (max-width: 991px) {
+  /* line 779, ../sass/main.scss */
+  .stucchi-project .background-image-widget .box {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/* line 826, ../sass/main.scss */
+.stucchi-project footer {
+  background: #333333;
+  padding: 5rem 0 3rem;
+}
+@media (max-width: 767px) {
+  /* line 826, ../sass/main.scss */
+  .stucchi-project footer {
+    padding: 2.5rem 0 0;
+  }
+}
+/* line 832, ../sass/main.scss */
+.stucchi-project footer .box {
+  border-right: 1px solid #515151;
+  width: 20%;
+  padding: 0 3%;
+  min-height: 18rem;
+}
+/* line 837, ../sass/main.scss */
+.stucchi-project footer .box:last-child {
+  border-right: none;
+  width: 30%;
+}
+@media (max-width: 767px) {
+  /* line 837, ../sass/main.scss */
+  .stucchi-project footer .box:last-child {
+    width: 50%;
+  }
+}
+/* line 844, ../sass/main.scss */
+.stucchi-project footer .box:first-child {
+  width: 30%;
+}
+@media (max-width: 767px) {
+  /* line 844, ../sass/main.scss */
+  .stucchi-project footer .box:first-child {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 832, ../sass/main.scss */
+  .stucchi-project footer .box {
+    border-right: none;
+    padding: 0 5%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 855, ../sass/main.scss */
+  .stucchi-project footer .mobile {
+    display: none;
+  }
+}
+/* line 860, ../sass/main.scss */
+.stucchi-project footer .show-mobile {
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 860, ../sass/main.scss */
+  .stucchi-project footer .show-mobile {
+    display: block;
+    margin-top: .5rem;
+  }
+}
+/* line 867, ../sass/main.scss */
+.stucchi-project footer h3 {
+  color: #fff;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "mulisemibold";
+  padding-bottom: 1rem;
+}
+@media (max-width: 767px) {
+  /* line 867, ../sass/main.scss */
+  .stucchi-project footer h3 {
+    padding-bottom: .5rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+}
+/* line 879, ../sass/main.scss */
+.stucchi-project footer p {
+  text-align: left;
+  font-size: 1.4rem;
+  font-family: "mulilight";
+  padding-bottom: 1rem;
+  color: #b3b3b3;
+}
+@media (max-width: 767px) {
+  /* line 879, ../sass/main.scss */
+  .stucchi-project footer p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 890, ../sass/main.scss */
+  .stucchi-project footer p span {
+    display: none;
+  }
+}
+/* line 896, ../sass/main.scss */
+.stucchi-project footer ul {
+  overflow: hidden;
+}
+/* line 898, ../sass/main.scss */
+.stucchi-project footer ul li {
+  padding-bottom: 1.5rem;
+}
+/* line 900, ../sass/main.scss */
+.stucchi-project footer ul li a {
+  font-family: "mulisemibold";
+  color: #fff;
+  text-align: left;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+/* line 906, ../sass/main.scss */
+.stucchi-project footer ul li a:hover {
+  color: #eb008b;
+}
+/* line 913, ../sass/main.scss */
+.stucchi-project footer .socials-links li {
+  padding: .5rem 0;
+}
+@media (max-width: 767px) {
+  /* line 913, ../sass/main.scss */
+  .stucchi-project footer .socials-links li {
+    padding: 0 0 0 1rem;
+    text-align: center;
+  }
+}
+/* line 919, ../sass/main.scss */
+.stucchi-project footer .socials-links li a {
+  display: block;
+}
+/* line 924, ../sass/main.scss */
+.stucchi-project footer .column {
+  margin-bottom: 1rem;
+  overflow: hidden;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  /* line 924, ../sass/main.scss */
+  .stucchi-project footer .column {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+/* line 932, ../sass/main.scss */
+.stucchi-project footer .column input {
+  background: #000;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: "muliregular";
+  float: left;
+  border: none;
+  padding: 0 1rem;
+  max-width: 17rem;
+}
+@media (max-width: 991px) {
+  /* line 932, ../sass/main.scss */
+  .stucchi-project footer .column input {
+    width: 12rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 932, ../sass/main.scss */
+  .stucchi-project footer .column input {
+    width: 10rem;
+  }
+}
+@media (max-width: 350px) {
+  /* line 932, ../sass/main.scss */
+  .stucchi-project footer .column input {
+    width: 8rem;
+  }
+}
+/* line 953, ../sass/main.scss */
+.stucchi-project footer .column span {
+  background: #eb008b;
+  height: 4rem;
+  width: 4rem;
+  float: left;
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: "mulisemibold";
+  line-height: 4.5rem;
+  text-align: left;
+  padding: 0 .5rem;
+}
+/* line 967, ../sass/main.scss */
+.stucchi-project footer .black-bg img {
+  margin-left: 2%;
+}
+@media (max-width: 767px) {
+  /* line 966, ../sass/main.scss */
+  .stucchi-project footer .black-bg {
+    background: #040707;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  /* line 974, ../sass/main.scss */
+  .stucchi-project footer .black-bg img {
+    width: 8rem;
+    margin: 0 auto;
+    display: block;
+  }
+}
+/* line 983, ../sass/main.scss */
+.stucchi-project .internal-banner {
+  background: url(/Resources/Images/banner/internal-banner.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: top center;
+  height: 39rem;
+}
+@media (max-width: 991px) {
+  /* line 983, ../sass/main.scss */
+  .stucchi-project .internal-banner {
+    margin-bottom: 20rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 983, ../sass/main.scss */
+  .stucchi-project .internal-banner {
+    height: 26rem;
+    margin-bottom: 16.4rem;
+  }
+}
+/* line 996, ../sass/main.scss */
+.stucchi-project .internal-banner .col-xs-12 {
+  height: 39rem;
+}
+@media (max-width: 991px) {
+  /* line 996, ../sass/main.scss */
+  .stucchi-project .internal-banner .col-xs-12 {
+    margin-bottom: 26rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 996, ../sass/main.scss */
+  .stucchi-project .internal-banner .col-xs-12 {
+    height: 26rem;
+    margin-bottom: 16.4rem;
+  }
+}
+/* line 1006, ../sass/main.scss */
+.stucchi-project .internal-banner.background {
+  background: url(/Resources/Images/banner/background-banner.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: top center;
+  height: 39rem;
+  margin-bottom: 0;
+}
+/* line 1014, ../sass/main.scss */
+.stucchi-project .internal-banner .internal-image {
+  bottom: 1rem;
+  left: 6rem;
+}
+@media (max-width: 767px) {
+  /* line 1014, ../sass/main.scss */
+  .stucchi-project .internal-banner .internal-image {
+    height: 90%;
+  }
+}
+/* line 1022, ../sass/main.scss */
+.stucchi-project .internal-banner .box {
+  position: absolute;
+  display: table;
+  right: 13rem;
+  bottom: 13rem;
+  padding: 2.2rem;
+}
+@media (max-width: 991px) {
+  /* line 1022, ../sass/main.scss */
+  .stucchi-project .internal-banner .box {
+    top: 100%;
+    padding: 4rem 1.5rem;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1022, ../sass/main.scss */
+  .stucchi-project .internal-banner .box {
+    padding: 3rem 1.5rem;
+  }
+}
+/* line 1041, ../sass/main.scss */
+.stucchi-project .internal-banner .box:after, .stucchi-project .internal-banner .box:before {
+  content: "";
+  position: absolute;
+  width: 2.7rem;
+  height: 2.7rem;
+  border: solid #eb008b;
+  border-width: 5px 5px 0 0;
+}
+@media (max-width: 991px) {
+  /* line 1041, ../sass/main.scss */
+  .stucchi-project .internal-banner .box:after, .stucchi-project .internal-banner .box:before {
+    content: none;
+  }
+}
+/* line 1053, ../sass/main.scss */
+.stucchi-project .internal-banner .box:before {
+  right: 0;
+  top: 0;
+}
+/* line 1057, ../sass/main.scss */
+.stucchi-project .internal-banner .box:after {
+  border-width: 0 0 5px 5px;
+  bottom: 0;
+  left: 0;
+}
+/* line 1062, ../sass/main.scss */
+.stucchi-project .internal-banner .box h2 {
+  font-family: "gobold_boldregular";
+  color: #000;
+  padding: 0;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  /* line 1062, ../sass/main.scss */
+  .stucchi-project .internal-banner .box h2 {
+    font-size: 4.8rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1062, ../sass/main.scss */
+  .stucchi-project .internal-banner .box h2 {
+    font-size: 3rem;
+  }
+}
+/* line 1073, ../sass/main.scss */
+.stucchi-project .internal-banner .box h2 span {
+  color: #eb008b;
+}
+/* line 1077, ../sass/main.scss */
+.stucchi-project .internal-banner .box p {
+  color: #4d4d4d;
+  font-family: "gobold_thinregular";
+  line-height: 2.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: -1px;
+}
+@media (max-width: 991px) {
+  /* line 1077, ../sass/main.scss */
+  .stucchi-project .internal-banner .box p {
+    font-size: 3.6rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1077, ../sass/main.scss */
+  .stucchi-project .internal-banner .box p {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+}
+/* line 1099, ../sass/main.scss */
+.stucchi-project .circle-image-widget .image-box img {
+  margin: 0 auto;
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  /* line 1099, ../sass/main.scss */
+  .stucchi-project .circle-image-widget .image-box img {
+    margin-bottom: 3rem;
+  }
+}
+/* line 1107, ../sass/main.scss */
+.stucchi-project .circle-image-widget .column {
+  padding: 5rem;
+}
+/* line 1109, ../sass/main.scss */
+.stucchi-project .circle-image-widget .column:nth-child(2n+2) {
+  background: #f4f4f4;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+@media (max-width: 767px) {
+  /* line 1109, ../sass/main.scss */
+  .stucchi-project .circle-image-widget .column:nth-child(2n+2) {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1107, ../sass/main.scss */
+  .stucchi-project .circle-image-widget .column {
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+}
+/* line 1125, ../sass/main.scss */
+.stucchi-project .circle-image-widget h3 {
+  font-family: "mulilight";
+  color: #eb008b;
+  margin-bottom: .5rem;
+  text-align: left;
+  padding-bottom: 0;
+}
+@media (max-width: 991px) {
+  /* line 1125, ../sass/main.scss */
+  .stucchi-project .circle-image-widget h3 {
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1125, ../sass/main.scss */
+  .stucchi-project .circle-image-widget h3 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: .5rem;
+  }
+}
+/* line 1143, ../sass/main.scss */
+.stucchi-project .internal-banner-simple {
+  background: #e0e0e0;
+  padding: 4.5rem 0;
+  border-bottom: 11px solid #eb008b;
+}
+@media (max-width: 767px) {
+  /* line 1143, ../sass/main.scss */
+  .stucchi-project .internal-banner-simple {
+    padding: 3rem 0;
+    border-bottom: 8px solid #eb008b;
+  }
+}
+/* line 1151, ../sass/main.scss */
+.stucchi-project .internal-banner-simple h1 {
+  font-family: "gobold_boldregular";
+  color: #000;
+  padding: 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* line 1159, ../sass/main.scss */
+.stucchi-project .internal-banner-simple h1 span {
+  color: #eb008b;
+}
+@media (max-width: 991px) {
+  /* line 1151, ../sass/main.scss */
+  .stucchi-project .internal-banner-simple h1 {
+    font-size: 4.8rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1151, ../sass/main.scss */
+  .stucchi-project .internal-banner-simple h1 {
+    font-size: 3rem;
+  }
+}
+/* line 1169, ../sass/main.scss */
+.stucchi-project .internal-banner-simple h2 {
+  font-family: "gobold_boldregular";
+  color: #000;
+  padding: 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* line 1177, ../sass/main.scss */
+.stucchi-project .internal-banner-simple h2 span {
+  color: #eb008b;
+}
+@media (max-width: 991px) {
+  /* line 1169, ../sass/main.scss */
+  .stucchi-project .internal-banner-simple h2 {
+    font-size: 4.8rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1169, ../sass/main.scss */
+  .stucchi-project .internal-banner-simple h2 {
+    font-size: 3rem;
+  }
+}
+/* line 1187, ../sass/main.scss */
+.stucchi-project .internal-banner-simple p {
+  color: #231f20;
+  font-family: "muliregular";
+  text-align: left;
+  font-size: 1.6rem;
+}
+/* line 1195, ../sass/main.scss */
+.stucchi-project .problems-widget {
+  margin-top: 7rem;
+}
+/* line 1197, ../sass/main.scss */
+.stucchi-project .problems-widget h3 {
+  color: #000;
+  text-align: left;
+  font-family: "mulilight";
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  /* line 1197, ../sass/main.scss */
+  .stucchi-project .problems-widget h3 {
+    font-size: 2.2rem;
+  }
+}
+/* line 1207, ../sass/main.scss */
+.stucchi-project .problems-widget h4 {
+  color: #eb008b;
+  text-align: left;
+  font-family: "mulilight";
+}
+/* line 1212, ../sass/main.scss */
+.stucchi-project .problems-widget h5 {
+  font-family: "mulisemibold";
+  color: #000;
+  text-align: left;
+  line-height: 2.2rem;
+  text-align: left;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  /* line 1212, ../sass/main.scss */
+  .stucchi-project .problems-widget h5 {
+    font-size: 1.6rem;
+  }
+}
+/* line 1225, ../sass/main.scss */
+.stucchi-project .problems-widget p {
+  padding-bottom: 0;
+  color: #000;
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+@media (max-width: 767px) {
+  /* line 1225, ../sass/main.scss */
+  .stucchi-project .problems-widget p {
+    padding-bottom: 1rem;
+  }
+}
+/* line 1235, ../sass/main.scss */
+.stucchi-project .problems-widget .column {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 7rem;
+  margin-bottom: 7rem;
+}
+@media (max-width: 767px) {
+  /* line 1235, ../sass/main.scss */
+  .stucchi-project .problems-widget .column {
+    padding-bottom: 4rem;
+    margin-bottom: 5rem;
+  }
+}
+/* line 1243, ../sass/main.scss */
+.stucchi-project .problems-widget .column img {
+  float: right;
+}
+@media (max-width: 767px) {
+  /* line 1243, ../sass/main.scss */
+  .stucchi-project .problems-widget .column img {
+    float: none;
+    display: block;
+    margin: 0 auto 3rem;
+  }
+}
+/* line 1251, ../sass/main.scss */
+.stucchi-project .problems-widget .column:last-child {
+  border-bottom: 0;
+}
+@media (max-width: 767px) {
+  /* line 1251, ../sass/main.scss */
+  .stucchi-project .problems-widget .column:last-child {
+    padding-bottom: 4rem;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1235, ../sass/main.scss */
+  .stucchi-project .problems-widget .column {
+    flex-direction: column-reverse;
+  }
+}
+/* line 1262, ../sass/main.scss */
+.stucchi-project .problems-widget .column .text-box .buttons {
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 1262, ../sass/main.scss */
+  .stucchi-project .problems-widget .column .text-box .buttons {
+    display: block;
+    margin-top: 3rem;
+  }
+}
+/* line 1271, ../sass/main.scss */
+.stucchi-project .problems-widget .column .image-box .buttons {
+  display: block;
+}
+@media (max-width: 767px) {
+  /* line 1271, ../sass/main.scss */
+  .stucchi-project .problems-widget .column .image-box .buttons {
+    display: none;
+  }
+}
+/* line 1281, ../sass/main.scss */
+.stucchi-project .problems-widget.products h2 {
+  padding-bottom: 1rem;
+  color: #eb008b;
+  text-align: left;
+  font-family: "mulilight";
+  text-align: left;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+}
+/* line 1291, ../sass/main.scss */
+.stucchi-project .problems-widget.products p {
+  padding-bottom: 1rem;
+}
+/* line 1294, ../sass/main.scss */
+.stucchi-project .problems-widget.products ul {
+  margin-bottom: 1rem;
+  overflow: hidden;
+  list-style: disc outside;
+  padding-left: 2rem;
+}
+/* line 1299, ../sass/main.scss */
+.stucchi-project .problems-widget.products ul li {
+  padding-bottom: .2rem;
+  color: #000;
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-family: "muliregular";
+}
+/* line 1308, ../sass/main.scss */
+.stucchi-project .problems-widget.products img {
+  margin-bottom: 2rem;
+}
+/* line 1311, ../sass/main.scss */
+.stucchi-project .problems-widget.products .button-white {
+  border: 1px solid #eb008b;
+  color: #eb008b;
+  display: inline-block;
+  min-width: 15rem;
+  margin: 0 1rem;
+}
+/* line 1317, ../sass/main.scss */
+.stucchi-project .problems-widget.products .button-white:hover {
+  color: #fff;
+  background: #eb008b;
+}
+/* line 1322, ../sass/main.scss */
+.stucchi-project .problems-widget.products .column {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 7rem;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  /* line 1322, ../sass/main.scss */
+  .stucchi-project .problems-widget.products .column {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+/* line 1332, ../sass/main.scss */
+.stucchi-project .problems-widget.products.no-border .column {
+  border-bottom: none;
+}
+/* line 1339, ../sass/main.scss */
+.stucchi-project .news-events-widget {
+  margin-top: 8rem;
+}
+/* line 1341, ../sass/main.scss */
+.stucchi-project .news-events-widget h2 {
+  color: #eb008b;
+  text-align: left;
+  font-family: "mulilight";
+  padding-bottom: 2rem;
+}
+/* line 1347, ../sass/main.scss */
+.stucchi-project .news-events-widget .date {
+  font-family: "mulisemibold";
+  margin-top: -2.2rem;
+  padding-bottom: 2rem;
+}
+/* line 1352, ../sass/main.scss */
+.stucchi-project .news-events-widget .column {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 7rem;
+  margin-bottom: 7rem;
+}
+@media (max-width: 767px) {
+  /* line 1352, ../sass/main.scss */
+  .stucchi-project .news-events-widget .column {
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+/* line 1360, ../sass/main.scss */
+.stucchi-project .news-events-widget .column:last-child {
+  border-bottom: 0;
+}
+@media (max-width: 767px) {
+  /* line 1360, ../sass/main.scss */
+  .stucchi-project .news-events-widget .column:last-child {
+    padding-bottom: 4rem;
+    margin-bottom: 0;
+  }
+}
+/* line 1371, ../sass/main.scss */
+.stucchi-project .custom-solutions h2 {
+  padding-bottom: 3rem;
+}
+/* line 1374, ../sass/main.scss */
+.stucchi-project .custom-solutions .col-xs-12 {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 3rem;
+}
+/* line 1378, ../sass/main.scss */
+.stucchi-project .custom-solutions .box {
+  margin-bottom: 3rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+/* line 1382, ../sass/main.scss */
+.stucchi-project .custom-solutions .box img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* line 1386, ../sass/main.scss */
+.stucchi-project .custom-solutions .box p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+/* line 1389, ../sass/main.scss */
+.stucchi-project .custom-solutions .box p:hover {
+  color: #000;
+}
+/* line 1394, ../sass/main.scss */
+.stucchi-project .custom-solutions .button-white {
+  color: #eb008b;
+  border: 1px solid #eb008b;
+}
+/* line 1397, ../sass/main.scss */
+.stucchi-project .custom-solutions .button-white:hover {
+  color: #fff;
+  background: #eb008b;
+  border: 1px solid #eb008b;
+}
+/* line 1404, ../sass/main.scss */
+.stucchi-project .custom-solutions.no-border .col-xs-12 {
+  border-bottom: none;
+}
+/* line 1411, ../sass/main.scss */
+.stucchi-project .main-form h2 {
+  color: #eb008b;
+}
+/* line 1415, ../sass/main.scss */
+.stucchi-project .main-form .column label {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: "muliregular";
+  color: #000;
+  width: 100%;
+  font-weight: 400;
+}
+/* line 1423, ../sass/main.scss */
+.stucchi-project .main-form .column input {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  font-family: "muliregular";
+  color: #000;
+  border: 1px solid #878787;
+  width: 100%;
+  height: 3rem;
+  padding: 0 1rem;
+}
+/* line 1433, ../sass/main.scss */
+.stucchi-project .main-form .column textarea {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: "muliregular";
+  color: #000;
+  border: 1px solid #878787;
+  width: 100%;
+  height: 10rem;
+  padding: .5rem 1rem;
+}
+/* line 1443, ../sass/main.scss */
+.stucchi-project .main-form .column button {
+  background: #eb008b;
+  color: #fff;
+  min-width: 16rem;
+  margin-bottom: 0;
+  border: 1px solid #eb008b;
+}
+/* line 1449, ../sass/main.scss */
+.stucchi-project .main-form .column button:hover {
+  background: #fff;
+  border: 1px solid #eb008b;
+  color: #eb008b;
+}
+/* line 1456, ../sass/main.scss */
+.stucchi-project .main-form .column.checkbox p {
+  font-family: "mulisemibold";
+  margin-bottom: 1.5rem;
+  margin-top: .5rem;
+}
+/* line 1461, ../sass/main.scss */
+.stucchi-project .main-form .column.checkbox .no-margin {
+  margin-left: 0;
+}
+@media (max-width: 767px) {
+  /* line 1455, ../sass/main.scss */
+  .stucchi-project .main-form .column.checkbox {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1469, ../sass/main.scss */
+  .stucchi-project .main-form .col-sm-push-6 {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1474, ../sass/main.scss */
+  .stucchi-project .main-form .col-sm-pull-6 {
+    margin-bottom: 1rem;
+  }
+}
+/* line 1480, ../sass/main.scss */
+.stucchi-project .main-form .succes-message button {
+  background: #eb008b;
+  color: #fff;
+  min-width: 16rem;
+  margin-bottom: 0;
+  border: 1px solid #eb008b;
+}
+/* line 1486, ../sass/main.scss */
+.stucchi-project .main-form .succes-message button:hover {
+  background: #fff;
+  border: 1px solid #eb008b;
+  color: #eb008b;
+}
+/* line 1496, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .column {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+/* line 1500, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .column:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+/* line 1506, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .box {
+  position: relative;
+}
+/* line 1508, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .box p {
+  margin-bottom: 2rem;
+}
+/* line 1511, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .box .button-white {
+  margin: 0 0 1rem;
+  max-width: 17rem;
+}
+/* line 1514, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .box .button-white:hover {
+  background: #eb008b;
+  color: #fff;
+}
+/* line 1520, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .box-right {
+  padding-left: 4.5rem;
+}
+/* line 1522, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .box-right img {
+  float: right;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  /* line 1520, ../sass/main.scss */
+  .stucchi-project .our-expertise-widget .box-right {
+    margin-bottom: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* line 1531, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .box-right .ico {
+  position: absolute;
+  background: #eb008b;
+  border-radius: 50%;
+  text-align: center;
+  top: 11rem;
+  left: 0rem;
+  width: 8.6rem;
+  height: 8.6rem;
+}
+@media (max-width: 1200px) {
+  /* line 1531, ../sass/main.scss */
+  .stucchi-project .our-expertise-widget .box-right .ico {
+    top: auto;
+    bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1531, ../sass/main.scss */
+  .stucchi-project .our-expertise-widget .box-right .ico {
+    top: auto;
+    bottom: -3rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+/* line 1551, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .box-right .ico img {
+  margin: auto;
+  transform: scale(0.8, 0.8);
+  float: none;
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* line 1562, ../sass/main.scss */
+.stucchi-project .our-expertise-widget .box-right .ico span {
+  color: #fff;
+  font-family: "mulisemibold";
+  font-size: 1.4rem;
+  z-index: 99;
+  position: relative;
+  text-align: center;
+  line-height: 8.6rem;
+  text-transform: capitalize;
+}
+@media (max-width: 767px) {
+  /* line 1576, ../sass/main.scss */
+  .stucchi-project .product-search {
+    margin-bottom: 8rem;
+  }
+}
+/* line 1580, ../sass/main.scss */
+.stucchi-project .product-search .sidebar {
+  background: #333333;
+  height: 100%;
+  padding: 6rem 3rem 3rem;
+}
+@media (max-width: 767px) {
+  /* line 1580, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar {
+    background: #fff;
+    padding: 4rem 0;
+  }
+}
+/* line 1588, ../sass/main.scss */
+.stucchi-project .product-search .sidebar h2 {
+  padding-bottom: 1.5rem;
+}
+@media (max-width: 767px) {
+  /* line 1588, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar h2 {
+    padding: 0 3rem;
+  }
+}
+/* line 1594, ../sass/main.scss */
+.stucchi-project .product-search .sidebar .box-product-search {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #909090;
+}
+@media (max-width: 767px) {
+  /* line 1594, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar .box-product-search {
+    margin: 0;
+    padding: 0;
+    background: #e0e0e0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1604, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar .box-product-search .column-slide {
+    display: none;
+  }
+}
+/* line 1609, ../sass/main.scss */
+.stucchi-project .product-search .sidebar .box-product-search p {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+@media (max-width: 767px) {
+  /* line 1609, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar .box-product-search p {
+    cursor: pointer;
+    color: #000;
+    font-family: "mulibold";
+    width: 100%;
+    margin: 0;
+    line-height: 4.2rem;
+    font-size: 1.6rem;
+    padding: 0 3rem;
+    background: #fff;
+  }
+  /* line 1623, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar .box-product-search p::after {
+    content: "\f054";
+    float: right;
+    font-family: "FontAwesome";
+    color: #eb008b;
+  }
+}
+/* line 1631, ../sass/main.scss */
+.stucchi-project .product-search .sidebar .box-product-search [type="checkbox"]:not(:checked) + label,
+.stucchi-project .product-search .sidebar .box-product-search [type="checkbox"]:checked + label {
+  margin-left: 0;
+  color: #ccc;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  /* line 1631, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar .box-product-search [type="checkbox"]:not(:checked) + label,
+  .stucchi-project .product-search .sidebar .box-product-search [type="checkbox"]:checked + label {
+    color: #333;
+  }
+}
+/* line 1640, ../sass/main.scss */
+.stucchi-project .product-search .sidebar .box-product-search [type="checkbox"]:not(:checked) + label:before,
+.stucchi-project .product-search .sidebar .box-product-search [type="checkbox"]:checked + label:before {
+  width: 1.9rem;
+  height: 1.9rem;
+  top: .1rem;
+  border: none;
+}
+/* line 1647, ../sass/main.scss */
+.stucchi-project .product-search .sidebar .box-product-search [type="checkbox"]:not(:checked) + label:after,
+.stucchi-project .product-search .sidebar .box-product-search [type="checkbox"]:checked + label:after {
+  top: .2em;
+  left: .1rem;
+  font-size: 1.1em;
+  color: #eb008b;
+}
+/* line 1654, ../sass/main.scss */
+.stucchi-project .product-search .sidebar .box-product-search:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  /* line 1654, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar .box-product-search:last-child {
+    border-bottom: 1px solid #909090;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1664, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar .box-product-search.active p::after {
+    content: "\f078";
+  }
+  /* line 1668, ../sass/main.scss */
+  .stucchi-project .product-search .sidebar .box-product-search.active .column-slide {
+    display: block;
+    padding: 1rem 4rem 0;
+  }
+}
+/* line 1677, ../sass/main.scss */
+.stucchi-project .product-search .main .box {
+  padding: 3.5rem 2rem;
+  border-bottom: 3px solid #ececec;
+}
+@media (max-width: 767px) {
+  /* line 1677, ../sass/main.scss */
+  .stucchi-project .product-search .main .box {
+    padding: 1.5rem 1rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1676, ../sass/main.scss */
+  .stucchi-project .product-search .main {
+    margin-top: 0;
+    padding: 0 3rem;
+  }
+}
+/* line 1688, ../sass/main.scss */
+.stucchi-project .product-search .main button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #eb008b;
+  min-width: 16rem;
+  border: 1px solid #eb008b;
+}
+/* line 1694, ../sass/main.scss */
+.stucchi-project .product-search .main button:hover {
+  background: #fff;
+  border: 1px solid #eb008b;
+  color: #eb008b;
+}
+/* line 1704, ../sass/main.scss */
+.stucchi-project .problems-solving-column .col-lg-10 {
+  padding-bottom: 5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+@media (max-width: 767px) {
+  /* line 1708, ../sass/main.scss */
+  .stucchi-project .problems-solving-column .box {
+    margin-bottom: 3rem;
+  }
+}
+/* line 1712, ../sass/main.scss */
+.stucchi-project .problems-solving-column .box img {
+  width: 100%;
+}
+/* line 1715, ../sass/main.scss */
+.stucchi-project .problems-solving-column .box p {
+  padding: 0 6rem;
+}
+@media (max-width: 767px) {
+  /* line 1715, ../sass/main.scss */
+  .stucchi-project .problems-solving-column .box p {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1720, ../sass/main.scss */
+  .stucchi-project .problems-solving-column .box p.font-bold {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1731, ../sass/main.scss */
+  .stucchi-project .problems-solving-list {
+    margin-top: 2rem;
+  }
+}
+/* line 1736, ../sass/main.scss */
+.stucchi-project .problems-solving-list .box ul {
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  /* line 1736, ../sass/main.scss */
+  .stucchi-project .problems-solving-list .box ul {
+    display: block;
+  }
+}
+/* line 1744, ../sass/main.scss */
+.stucchi-project .problems-solving-list .box ul li {
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: "muliregular";
+  color: #000;
+  list-style: outside disc;
+  padding-bottom: .5rem;
+  margin-left: 2rem;
+}
+@media (max-width: 767px) {
+  /* line 1758, ../sass/main.scss */
+  .stucchi-project .problems-image-uploader {
+    margin-top: 3rem;
+  }
+}
+/* line 1762, ../sass/main.scss */
+.stucchi-project .problems-image-uploader .grey-bg {
+  background: #e0e0e0;
+  padding: 3.5rem 4rem;
+}
+@media (max-width: 767px) {
+  /* line 1762, ../sass/main.scss */
+  .stucchi-project .problems-image-uploader .grey-bg {
+    padding: 3.5rem 1.5rem;
+  }
+}
+/* line 1769, ../sass/main.scss */
+.stucchi-project .problems-image-uploader .grey-bg .box.box-left {
+  padding-right: 3rem;
+}
+@media (max-width: 767px) {
+  /* line 1769, ../sass/main.scss */
+  .stucchi-project .problems-image-uploader .grey-bg .box.box-left {
+    padding-right: 1.5rem;
+  }
+}
+/* line 1775, ../sass/main.scss */
+.stucchi-project .problems-image-uploader .grey-bg .box.box-right {
+  padding-left: 3rem;
+}
+@media (max-width: 767px) {
+  /* line 1775, ../sass/main.scss */
+  .stucchi-project .problems-image-uploader .grey-bg .box.box-right {
+    padding-left: 1.5rem;
+  }
+}
+/* line 1781, ../sass/main.scss */
+.stucchi-project .problems-image-uploader .grey-bg .box h2 {
+  padding-bottom: 1rem;
+}
+/* line 1784, ../sass/main.scss */
+.stucchi-project .problems-image-uploader .grey-bg .box label {
+  width: 100%;
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-family: "muliregular";
+  color: #000;
+  font-weight: 400;
+}
+/* line 1793, ../sass/main.scss */
+.stucchi-project .problems-image-uploader .grey-bg .box input {
+  width: 100%;
+  background: #fff;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  height: 3rem;
+  font-family: "muliregular";
+  color: #000;
+  padding: 0 1rem;
+}
+/* line 1803, ../sass/main.scss */
+.stucchi-project .problems-image-uploader .grey-bg .box button {
+  float: left;
+  background: #eb008b;
+  color: #fff;
+  min-width: 16rem;
+  margin-bottom: 0;
+  border: none;
+}
+/* line 1811, ../sass/main.scss */
+.stucchi-project .problems-image-uploader .grey-bg .box p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-bottom: 1.5rem;
+}
+/* line 1816, ../sass/main.scss */
+.stucchi-project .problems-image-uploader .grey-bg .box img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  /* line 1816, ../sass/main.scss */
+  .stucchi-project .problems-image-uploader .grey-bg .box img {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1826, ../sass/main.scss */
+  .stucchi-project .problems-videos {
+    margin-top: 3rem;
+  }
+}
+/* line 1832, ../sass/main.scss */
+.stucchi-project .problems-videos .row .row {
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  border-bottom: 2px solid #f0f0f0;
+}
+@media (max-width: 767px) {
+  /* line 1832, ../sass/main.scss */
+  .stucchi-project .problems-videos .row .row {
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+/* line 1841, ../sass/main.scss */
+.stucchi-project .problems-videos .row .row img {
+  width: 100%;
+}
+/* line 1848, ../sass/main.scss */
+.stucchi-project .problems-videos.no-border .row .row {
+  border-bottom: 0;
+  margin-bottom: 5rem;
+}
+/* line 1858, ../sass/main.scss */
+.stucchi-project .search-results .search-box input {
+  width: 85%;
+  border: 1px solid #878787;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  font-family: "muliregular";
+  color: #000;
+  float: left;
+  padding: 0 1rem;
+}
+@media (max-width: 767px) {
+  /* line 1858, ../sass/main.scss */
+  .stucchi-project .search-results .search-box input {
+    width: 70%;
+  }
+}
+/* line 1872, ../sass/main.scss */
+.stucchi-project .search-results .search-box button {
+  float: left;
+  width: 15%;
+  height: 3rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-family: "muliregular";
+  border: none;
+  font-size: 1.6rem;
+  background: #eb008b;
+}
+@media (max-width: 767px) {
+  /* line 1872, ../sass/main.scss */
+  .stucchi-project .search-results .search-box button {
+    width: 30%;
+  }
+}
+/* line 1889, ../sass/main.scss */
+.stucchi-project .search-results .box {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+@media (max-width: 767px) {
+  /* line 1889, ../sass/main.scss */
+  .stucchi-project .search-results .box {
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+/* line 1897, ../sass/main.scss */
+.stucchi-project .search-results .box:last-child {
+  border-bottom: 0;
+}
+/* line 1905, ../sass/main.scss */
+.stucchi-project .solution-search .panel-heading .panel-title {
+  text-transform: uppercase;
+  color: #000;
+  font-family: "mulisemibold";
+  font-size: 1.6rem;
+}
+/* line 1910, ../sass/main.scss */
+.stucchi-project .solution-search .panel-heading .panel-title a {
+  background: url(/Resources/Images/icons/minus-ico.png) no-repeat center left;
+  width: 100%;
+  display: block;
+  padding: 2rem 1rem 2rem 4rem;
+}
+/* line 1916, ../sass/main.scss */
+.stucchi-project .solution-search .panel-heading .panel-title a.collapsed {
+  background: url(/Resources/Images/icons/plus-ico.png) no-repeat center left;
+}
+/* line 1919, ../sass/main.scss */
+.stucchi-project .solution-search .panel-heading .panel-title a:hover {
+  color: #000;
+}
+/* line 1922, ../sass/main.scss */
+.stucchi-project .solution-search .panel-heading .panel-title a:focus {
+  color: #000;
+}
+/* line 1928, ../sass/main.scss */
+.stucchi-project .solution-search .panel-body {
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+}
+/* line 1934, ../sass/main.scss */
+.stucchi-project [type="checkbox"]:not(:checked),
+.stucchi-project [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+/* line 1940, ../sass/main.scss */
+.stucchi-project [type="checkbox"]:not(:checked) + label,
+.stucchi-project [type="checkbox"]:checked + label {
+  position: relative;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: "muliregular";
+  color: #000;
+  width: 100%;
+  padding-left: 1.95em;
+  cursor: pointer;
+  clear: both;
+  display: block;
+  margin-left: 2rem;
+  margin-bottom: .8rem;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  /* line 1940, ../sass/main.scss */
+  .stucchi-project [type="checkbox"]:not(:checked) + label,
+  .stucchi-project [type="checkbox"]:checked + label {
+    margin-left: 0;
+  }
+}
+/* line 1960, ../sass/main.scss */
+.stucchi-project [type="checkbox"]:not(:checked) + label:before,
+.stucchi-project [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: .4rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 1px solid #878787;
+  background: #fff;
+}
+/* line 1972, ../sass/main.scss */
+.stucchi-project [type="checkbox"]:not(:checked) + label:after,
+.stucchi-project [type="checkbox"]:checked + label:after {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: .4em;
+  left: 0;
+  font-size: .9em;
+  line-height: 0.8;
+  color: #878787;
+  transition: all .2s;
+}
+/* line 1985, ../sass/main.scss */
+.stucchi-project [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+/* line 1990, ../sass/main.scss */
+.stucchi-project [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* line 1995, ../sass/main.scss */
+.stucchi-project .stucchi-search {
+  max-width: 97.5rem;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+}
+/* line 1999, ../sass/main.scss */
+.stucchi-project .stucchi-search h1 {
+  color: #000;
+  text-align: left;
+  font-family: "mulibold";
+  padding: 0 2rem;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  /* line 1999, ../sass/main.scss */
+  .stucchi-project .stucchi-search h1 {
+    padding: 0;
+  }
+}
+/* line 2011, ../sass/main.scss */
+.stucchi-project .stucchi-search h3 {
+  padding-bottom: .5rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #000;
+  font-family: "mulibold";
+}
+/* line 2017, ../sass/main.scss */
+.stucchi-project .stucchi-search h3 a {
+  padding-bottom: .5rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #eb008b;
+  font-family: "mulibold";
+  text-decoration: underline;
+  display: block;
+}
+/* line 2025, ../sass/main.scss */
+.stucchi-project .stucchi-search h3 a:hover {
+  text-decoration: none;
+}
+/* line 2030, ../sass/main.scss */
+.stucchi-project .stucchi-search p {
+  padding-bottom: 1rem;
+}
+/* line 2033, ../sass/main.scss */
+.stucchi-project .stucchi-search > div {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+/* line 2037, ../sass/main.scss */
+.stucchi-project .stucchi-search > div:last-child {
+  border-bottom: 0;
+}
+/* line 2040, ../sass/main.scss */
+.stucchi-project .stucchi-search > div a {
+  display: none;
+}
+/* line 2043, ../sass/main.scss */
+.stucchi-project .stucchi-search > div div {
+  padding: 0 2rem;
+}
+@media (max-width: 767px) {
+  /* line 2043, ../sass/main.scss */
+  .stucchi-project .stucchi-search > div div {
+    padding: 0;
+  }
+}
+/* line 2051, ../sass/main.scss */
+.stucchi-project .stucchi-search > div h3 a {
+  display: block;
+}
+/* line 2056, ../sass/main.scss */
+.stucchi-project .stucchi-search em {
+  display: none;
+}
+/* line 2059, ../sass/main.scss */
+.stucchi-project .stucchi-search .pagination {
+  text-align: center;
+  display: block;
+  margin: 2rem auto;
+}
+/* line 2063, ../sass/main.scss */
+.stucchi-project .stucchi-search .pagination li {
+  display: inline-block;
+  text-align: center;
+}
+/* line 2067, ../sass/main.scss */
+.stucchi-project .stucchi-search .pagination li.active a {
+  text-decoration: underline;
+  background: transparent;
+  color: #eb008b;
+}
+/* line 2073, ../sass/main.scss */
+.stucchi-project .stucchi-search .pagination li a {
+  border: none;
+  border-radius: 0;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-family: "muliregular";
+  color: #000;
+  text-decoration: none;
+  background: transparent;
+}
+/* line 2082, ../sass/main.scss */
+.stucchi-project .stucchi-search .pagination li a:hover {
+  background: transparent;
+  text-decoration: underline;
+  color: #eb008b;
+}
+/* line 2092, ../sass/main.scss */
+.stucchi-project .problems-videos h2 {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+/* line 2096, ../sass/main.scss */
+.stucchi-project .problems-videos p {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+/* line 2101, ../sass/main.scss */
+.stucchi-project #video {
+  display: block;
+  width: 640px;
+  margin: 0 auto 1rem;
+  height: 360px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+@media (max-width: 767px) {
+  /* line 2101, ../sass/main.scss */
+  .stucchi-project #video {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 2113, ../sass/main.scss */
+  .stucchi-project #video iframe {
+    width: 100%;
+  }
+}
+/* line 2120, ../sass/main.scss */
+.stucchi-project .circle {
+  stroke: #eb008b;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 650;
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity: 0.3;
+}
+/* line 2128, ../sass/main.scss */
+.stucchi-project .playButton {
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+}
+/* line 2133, ../sass/main.scss */
+.stucchi-project .playButton .triangle {
+  -webkit-transition: all 0.7s ease-in-out;
+  stroke-dasharray: 240;
+  stroke-dashoffset: 480;
+  stroke: #fff;
+  transform: translateY(0);
+}
+/* line 2141, ../sass/main.scss */
+.stucchi-project .playButton svg {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  left: calc(50% - 60px);
+  top: calc(50% - 60px);
+}
+/* line 2149, ../sass/main.scss */
+.stucchi-project .playButton:hover .triangle {
+  stroke-dashoffset: 0;
+  opacity: 1;
+  stroke: #eb008b;
+  animation: nudge 0.7s ease-in-out;
+}
+@keyframes nudge {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  70% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* line 2174, ../sass/main.scss */
+.stucchi-project .playButton:hover .circle {
+  stroke-dashoffset: 0;
+  opacity: 1;
+}

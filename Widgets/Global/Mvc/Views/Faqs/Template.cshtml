@@ -1,0 +1,50 @@
+@model dynamic
+
+
+<section style="display:none">
+
+<!-- View Code for Title -->
+@Html.Raw(Model.Title)
+
+
+<!-- View Code for Items -->
+
+
+
+</section>
+
+
+<!-- solution search widget -->
+<section class="solution-search margin-top-6 margin-bottom-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    @{int idx = 0;}
+
+
+                    @foreach (var item in Model.ItemsSelectedItems)
+                    {
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading_@idx">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_@idx" aria-expanded="true" aria-controls="collapse_@idx" class="@(@idx == 0 ? "" : "collapsed")">
+                                        @Html.Raw(@item.DisplayTitle)
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse_@idx" class="panel-collapse collapse @(@idx ==0 ? "in" : "")" role="tabpanel" aria-labelledby="heading_@idx">
+                                <div class="panel-body">
+                                    @Html.Raw(@item.Content)
+                                </div>
+                            </div>
+                        </div>
+                        idx++;
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end solution search widget -->

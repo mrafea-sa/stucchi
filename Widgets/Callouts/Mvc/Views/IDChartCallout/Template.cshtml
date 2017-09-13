@@ -1,0 +1,36 @@
+@model dynamic
+
+<!-- problems solving columns widget -->
+<section class="problems-solving-column margin-top-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h2 class="text-center">@Html.Raw(Model.Title)</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    @foreach (var item in Model.ItemsSelectedItems)
+                    {
+                        <div class="box text-center col-xs-12 col-sm-4">
+                            @if (item.LinkLinks.Count > 0)
+                            {
+                                <a href="@item.LinkLinks[0].Url" title="@item.DisplayTitle">
+                                    @if (item.ImageMediaAssets.Count > 0)
+                                    {
+                                        <img src="@item.ImageMediaAssets[0].Src" alt="@item.ImageMediaAssets[0].Alt" class="img-responsive margin-bottom-1">
+                                    }
+
+                                    <p class="font-bold font-uppercase">@item.DisplayTitle</p>
+                                    @Html.Raw(@item.Copy)
+                                </a>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end problems solving columns widget -->

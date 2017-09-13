@@ -1,0 +1,188 @@
+upload-file {
+    background: #dee0e0;
+    display: block;
+    height: 20rem;
+    max-width: 100%;
+    position: relative;
+}
+
+    upload-file .center-me {
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%) translateY(-50%);
+        top: 50%;
+    }
+
+    upload-file.with-label {
+        margin-top: 30px !important;
+    }
+
+    upload-file .label {
+        background-color: #d51820;
+        border-radius: 0;
+        display: block;
+        padding: 4px 4px 4px 6px;
+        position: relative;
+    }
+
+        upload-file .label p {
+            color: #fff;
+            margin: 0;
+        }
+
+    upload-file .information {
+        -ms-flex-align: center;
+        align-items: center;
+        bottom: 8px;
+        color: #464646;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        left: 4px;
+        padding-top: 2px;
+        position: absolute;
+    }
+
+        upload-file .information .uploadicons {
+            color: inherit;
+        }
+
+            upload-file .information .uploadicons:before {
+                vertical-align: middle;
+            }
+
+        upload-file .information p {
+            color: inherit;
+            font-size: 12px;
+            margin: 0 0 0 5px;
+        }
+
+    upload-file .upload-container {
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+        upload-file .upload-container .upload-description {
+            font-size: 1.2rem;
+            margin: -2rem 0 2rem;
+            padding: 0;
+        }
+
+        upload-file .upload-container .upload-btn {
+            color: #464646;
+            cursor: pointer;
+            font-size: 5em;
+            transition: color .1s 0s;
+            width: auto;
+        }
+
+            upload-file .upload-container .upload-btn.active {
+                color: #fff;
+                cursor: default;
+            }
+
+        upload-file .upload-container .edit-controls, upload-file .upload-container .preview-controls {
+            background: #fedd00;
+            height: 30%;
+            left: 0;
+            max-height: 2.5em;
+            position: absolute;
+            right: 0;
+            transform: translateY(-100%);
+            transition: transform .3s 0s;
+            z-index: 1;
+        }
+
+        upload-file .upload-container .preview-controls {
+            -ms-flex-align: center;
+            align-items: center;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+
+        upload-file .upload-container .edit-controls {
+            -ms-flex-align: center;
+            align-items: center;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: end;
+            justify-content: flex-end;
+            padding-right: .4em;
+            top: 0;
+        }
+
+        upload-file .upload-container .preview-controls {
+            bottom: -1px;
+            transform: translateY(100%);
+        }
+
+        upload-file .upload-container:hover .upload-btn {
+            color: #d51820;
+        }
+
+        upload-file .upload-container.show-controls .edit-controls, upload-file .upload-container.show-controls .preview-controls {
+            transform: translateY(0);
+        }
+
+        upload-file .upload-container .loader {
+            background: none;
+        }
+
+        upload-file .upload-container .img-preview {
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 60%;
+            pointer-events: none;
+        }
+
+    upload-file .image-alternative-text {
+        padding: 3rem 2rem 0;
+    }
+
+    upload-file .edit-control {
+        color: #231f20;
+        cursor: pointer;
+        font-size: 2.2rem;
+        line-height: 1rem;
+        margin: 0 .5rem;
+    }
+
+        upload-file .edit-control:before {
+            vertical-align: middle;
+        }
+
+    upload-file .upload-progress-loader, upload-file .upload-progress-loader__percentage {
+        bottom: 0;
+        height: 100%;
+        position: absolute;
+    }
+
+    upload-file .upload-progress-loader {
+        background: #d51820;
+        bottom: 0;
+        height: 8px;
+        width: 100%;
+    }
+
+    upload-file .upload-progress-loader__percentage {
+        background: #fff;
+        width: 0;
+    }
+
+    upload-file .upload-progress-label {
+        color: #d51820;
+    }

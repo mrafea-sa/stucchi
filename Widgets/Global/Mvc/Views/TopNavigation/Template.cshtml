@@ -1,0 +1,51 @@
+@model dynamic
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+            <a class="logo" href="/"><img src="/Resources/Images/header-logo.png"></a>
+            <div class="menu-mobile search-top-panel">
+                <a href="/" class="button-menu">
+                </a>
+                <a href="javascript:;" class="button-search search-action"><i class="fa fa-search"></i></a>
+                <div class="search-box-hide">
+                    <input type="text" placeholder="Search and hit enter">
+                    <input class="submit search-action">
+                    <button class="close-btn"><i class="fa fa-times"></i></button>
+                </div>
+            </div>
+            <ul class="menu left">
+                @foreach (var item in Model.MainNavigationItems)
+                {
+                    if (item.Children.Count == 0)
+                    {
+                        <li><a class="no-transition" href="@item.Url">@item.Title</a></li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a class="no-transition carrot" href="@item.Url">@item.Title</a>
+                            <ul>
+                                @foreach (var child in item.Children)
+                                {
+                                    <li>
+                                        <a href="@child.Url">@child.Title</a>
+                                    </li>
+                                }
+                            </ul>
+                        </li>
+                    }
+                }
+                <li class="mobile"><a class="no-transition" href="#">Search</a></li>
+                <li class="mobile"><a class="no-transition" href="#">Contact</a></li>
+            </ul>
+            <ul class="menu-right right search-top-desktop-panel">
+                <li>
+                    <input type="text" name="q" id="query" placeholder="Search..." class="input-search" width-default="110" autocomplete="off">
+                    <button class="search-btn search-action"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

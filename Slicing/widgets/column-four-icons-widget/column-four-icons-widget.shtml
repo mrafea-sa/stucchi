@@ -1,0 +1,36 @@
+<!-- column four iconsm widget -->
+<section class="column-four-icons-widget">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row">
+                    <div class="box col-xs-3">
+                        <a href="javascript:;" title="Oil & Gas">
+                          <img src="resources/images/icons/oil-ico.png" class="img-responsive margin-bottom-1" alt="Oil & Gas">
+                          <span>Oil & Gas</span>
+                        </a>
+                    </div>
+                    <div class="box col-xs-3">
+                        <a href="javascript:;" title="Mobile">
+                    <img src="resources/images/icons/mobile-ico.png" class="img-responsive margin-bottom-1" alt="Mobile">
+                    <span>Mobile</span>
+                    </a>
+                    </div>
+                    <div class="box col-xs-3">
+                        <a href="javascript:;" title="Industrial">
+                    <img src="resources/images/icons/industrial-ico.png" class="img-responsive margin-bottom-1" alt="Industrial">
+                    <span>Industrial</span>
+                    </a>
+                    </div>
+                    <div class="box col-xs-3">
+                        <a href="javascript:;" title="Agricultural">
+                    <img src="resources/images/icons/agricultural-ico.png" class="img-responsive margin-bottom-1" alt="Agricultural">
+                    <span>Agricultural</span>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end column four iconsm widget -->

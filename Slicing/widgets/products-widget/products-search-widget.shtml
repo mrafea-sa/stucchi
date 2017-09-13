@@ -1,0 +1,126 @@
+<!-- product search widget -->
+<section class="product-search margin-bottom-14">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+                <div class="row">
+                    <div class="sidebar col-xs-12 col-sm-4">
+                        <h2 class="">FILTER</h2>
+                        <div class="box-product-search active">
+                            <p>Application</p>
+                            <div class="column-slide">
+                                <div class="column">
+                                    <input type="checkbox" id="check1" name="">
+                                    <label for="check1">Ag</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check2" name="">
+                                    <label for="check2">Industrial</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check3" name="">
+                                    <label for="check3">Mobile</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check4" name="">
+                                    <label for="check4">Oil & Gas</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product-search">
+                            <p>BODY SIZE</p>
+                            <div class="column-slide">
+                                <div class="column">
+                                    <input type="checkbox" id="check5" name="">
+                                    <label for="check5">Ag</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check6" name="">
+                                    <label for="check6">Industrial</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check7" name="">
+                                    <label for="check7">Mobile</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check8" name="">
+                                    <label for="check8">Oil & Gas</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product-search">
+                            <p>CONNECTION UNDER PRESSURE</p>
+                            <div class="column-slide">
+                                <div class="column">
+                                    <input type="checkbox" id="check9" name="">
+                                    <label for="check9">Ag</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check11" name="">
+                                    <label for="check11">Industrial</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check22" name="">
+                                    <label for="check22">Mobile</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check33" name="">
+                                    <label for="check33">Oil & Gas</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product-search">
+                            <p>WORKING PRESSURE</p>
+                            <div class="column-slide">
+                                <div class="column">
+                                    <input type="checkbox" id="check44" name="">
+                                    <label for="check44">Ag</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check55" name="">
+                                    <label for="check55">Industrial</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check66" name="">
+                                    <label for="check66">Mobile</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product-search">
+                            <p>MATERIAL</p>
+                            <div class="column-slide">
+                                <div class="column">
+                                    <input type="checkbox" id="check77" name="">
+                                    <label for="check77">Ag</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check88" name="">
+                                    <label for="check88">Industrial</label>
+                                </div>
+                                <div class="column">
+                                    <input type="checkbox" id="check99" name="">
+                                    <label for="check99">Mobile</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main col-xs-12 col-sm-7 col-sm-offset-1 margin-top-5">
+                                <div class="box">
+                                <p><span class="font-bold">SERIES: VEP </span>- Threaded Flat Face Couplers</p>
+                                </div>
+                                <div class="box">
+                                <p><span class="font-bold">SERIES: VEP </span>- Threaded Flat Face Couplers</p>
+                                </div>
+                                <div class="box">
+                                <p><span class="font-bold">SERIES: VEP </span>- Threaded Flat Face Couplers</p>
+                                </div>
+                                <div class="box">
+                                <p><span class="font-bold">SERIES: VEP </span>- Threaded Flat Face Couplers</p>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end product search widget -->

@@ -1,0 +1,43 @@
+@model dynamic
+@if (Model.PageTemplate == "homepage")
+{
+    <!-- hero homepage -->
+    <section class="hero-homepage-widget ">
+        <div class="container relative">
+            <div class="box">
+                @Html.Raw(Model.MainContent)
+                <a class="learn-more text-center font-18" href="@Model.LinkURLLink">@Model.LinkURLLinkText</a>
+            </div>
+            @if (Model.ProductImageMediaAsset != null)
+            {
+                <img src="@Model.BackgroundImageMediaAsset.ImageSelectedSizeUrl" alt="@Model.BackgroundImageMediaAsset.ImageAlternativeText" class="hero-image absolute img-responsive" />
+            }
+
+            @if (Model.BackgroundImageMediaAsset != null)
+            {
+                <img src="@Model.ProductImageMediaAsset.ImageSelectedSizeUrl" alt="@Model.ProductImageMediaAsset.ImageAlternativeText" class="vep-ico absolute img-responsive" />
+            }
+        </div>
+    </section>
+    <!-- end hero homepage -->
+}
+else
+{
+    <!-- internal banner -->
+    <section class="internal-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-10 col-lg-offset-1 relative full-height">
+                    <div class="box">
+                        @Html.Raw(Model.MainContent)
+                    </div>
+                    @if (Model.ProductImageMediaAsset != null)
+                    {
+                        <img src="@Model.BackgroundImageMediaAsset.ImageSelectedSizeUrl" alt="@Model.BackgroundImageMediaAsset.ImageAlternativeText" class="internal-image absolute img-responsive" />
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end internal banner -->
+}

@@ -1,0 +1,58 @@
+<!-- custom solutions product widget -->
+<section class="custom-solutions margin-bottom-4 no-border">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row">
+                    <h2 class="text-uppercase text-center">APPLICATIONS</h2>
+                </div>
+                <div class="row flexbox">
+                    <div class="box col-xs-12 col-sm-4">
+                        <!-- <a href="javascript:;" title="Hydraulics"> -->
+                    <img src="resources/images/products/default-img.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                    <p><b>Product:</b> FV - VP - Q</p>
+                    <p><b>Application:</b> Hydraulic attachments on the back and front side of the snowplow</p>
+                    <p><b>Market:</b> Snowplow</p>
+                    <p><b>Nominal Diameter:</b> ISO 6.3, 10, 12.5, 16, 19, 25</p>
+                    <p><b>Max Operating Pressure Coupled:</b> 450 Bar</p>
+                    <p><b>Seals:</b> NBR</p>
+                    <p><b>Type of Fluid:</b> Hydraulic Oil</p>
+                    <p><b>Main Feature: </b> Robust construction improved corrosion resistance. Possibility to be coupled and uncoupled under pressure.</p>
+                <!-- </a> -->
+                    </div>
+                    <div class="box col-xs-12 col-sm-4">
+                        <!-- <a href="javascript:;" title="Hydraulics"> -->
+                    <img src="resources/images/products/default-img.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                    <p><b>Product:</b> FV - VP - Q</p>
+                    <p><b>Application:</b> Hydraulic attachments on the back and front side of the snowplow</p>
+                    <p><b>Market:</b> Snowplow</p>
+                    <p><b>Nominal Diameter:</b> ISO 6.3, 10, 12.5, 16, 19, 25</p>
+                    <p><b>Max Operating Pressure Coupled:</b> 450 Bar</p>
+                    <p><b>Seals:</b> NBR</p>
+                    <p><b>Type of Fluid:</b> Hydraulic Oil</p>
+                    <p><b>Main Feature: </b> Robust construction improved corrosion resistance. Possibility to be coupled and uncoupled under pressure.</p>
+              <!--   </a> -->
+                    </div>
+                    <div class="box col-xs-12 col-sm-4">
+                      <!--   <a href="javascript:;" title="Hydraulics"> -->
+                    <img src="resources/images/products/default-img.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                    <p><b>Product:</b> FV - VP - Q</p>
+                    <p><b>Application:</b> Hydraulic attachments on the back and front side of the snowplow</p>
+                    <p><b>Market:</b> Snowplow</p>
+                    <p><b>Nominal Diameter:</b> ISO 6.3, 10, 12.5, 16, 19, 25</p>
+                    <p><b>Max Operating Pressure Coupled:</b> 450 Bar</p>
+                    <p><b>Seals:</b> NBR</p>
+                    <p><b>Type of Fluid:</b> Hydraulic Oil</p>
+                    <p><b>Main Feature: </b> Robust construction improved corrosion resistance. Possibility to be coupled and uncoupled under pressure.</p>
+                <!-- </a> -->
+                    </div>
+
+                </div>
+                  <div class="row center">
+                    <a href="javascript:;" class="button button-white pink text-uppercase" title="View Details">VIEW MORE </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end custom solutions product widget -->

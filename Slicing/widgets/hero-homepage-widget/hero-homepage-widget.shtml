@@ -1,0 +1,13 @@
+<!-- hero homepage -->
+<section class="hero-homepage-widget ">
+    <div class="container relative">
+        <div class="box">
+            <h2 class="text-center text-uppercase font-30">HEAVY DUTY <span>LOCKING</span></h2>
+            <p class="text-center text-uppercase font-20 margin-bottom-2">FLAT FACE THREADED COUPLER</p>
+            <a class="learn-more text-center font-18" title="Learn More" href="javascript:;">Learn more ></a>
+        </div>
+        <img class="hero-image absolute img-responsive" src="resources/images/hero-image.png" alt="Hero Image Product">
+        <img class="vep-ico absolute img-responsive" src="resources/images/vep-ico.png" alt="VEPHDL">
+    </div>
+</section>
+<!-- end hero homepage -->

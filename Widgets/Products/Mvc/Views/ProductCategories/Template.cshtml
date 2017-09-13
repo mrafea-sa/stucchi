@@ -1,0 +1,49 @@
+@model dynamic
+
+<!-- custom solutions product widget -->
+@{string identifier = Guid.NewGuid().ToString();}
+
+<section class="custom-solutions margin-top-7 margin-bottom-4 @identifier">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row">
+                    <h2 class="text-uppercase text-center">@Html.Raw(Model.Title)</h2>
+                </div>
+                <div class="row flexbox">
+                    @{int idx = 0;}
+                    @{int step = 0;}
+                    @{string indicator = "idx";}
+                    @foreach (var item in Model.ItemsSelectedItems)
+                    {
+                        if (idx >= 3)
+                        {
+                            step = (idx / 3);
+                            indicator = "hidden idx" + step;
+                        }
+
+                        <div class="box col-xs-12 col-sm-4 @indicator">
+                            @if (item.ImageMediaAssets.Count > 0)
+                            {
+                                <img src="@item.ImageMediaAssets[0].Src" alt="@item.ImageMediaAssets[0].Alt" title="@item.ImageMediaAssets[0].Title">
+                            }
+                            @if (!string.IsNullOrEmpty(item.Content))
+                            {
+                                @Html.Raw(@item.Content)
+                            }
+                        </div>
+                            idx++;
+                    }
+                </div>
+                @if (Model.ItemsSelectedItems.Count > 3)
+                {
+                    <div class="row center">
+                        <a href="javascript:;" class="button button-white pink text-uppercase"
+                           title="View More" data-identifier="@identifier" data-step="0">VIEW MORE</a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end custom solutions product widget -->

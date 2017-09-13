@@ -1,0 +1,14 @@
+@model dynamic
+<!-- background image widget -->
+<section class="background-image-widget @Model.AlignmentOptions" style="background-image: url(@Model.BackgroundImageMediaAsset.ImageSelectedSizeUrl); ">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+                <div class="box text-center">
+                    @Html.Raw(Model.MainContent)
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end background image widget -->

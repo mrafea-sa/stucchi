@@ -1,0 +1,41 @@
+<!-- problems solving list widget -->
+<section class="problems-solving-list margin-top-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h2 class="text-center">RESOURCE DOCUMENTS</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box text-center col-xs-12 col-sm-6">
+                        <ul>
+                            <li>Morbi gravida lacus sed lorem</li>
+                            <li> Mauris vestibulum</li>
+                            <li>Cras vehicula porta eros</li>
+                            <li>Integer pretium pulvinar augue.</li>
+                            <li>Aenean ut nisl non lectus porta feugiat</li>
+                            <li>Mauris iaculis pede a risus</li>
+                            <li>Suspendisse mollis</li>
+                            <li>Donec suscipit</li>
+                        </ul>
+                    </div>
+                    <div class="box text-center col-xs-12 col-sm-6">
+                        <ul>
+                            <li>Morbi gravida lacus sed lorem</li>
+                            <li> Mauris vestibulum</li>
+                            <li>Cras vehicula porta eros</li>
+                            <li>Integer pretium pulvinar augue.</li>
+                            <li>Aenean ut nisl non lectus porta feugiat</li>
+                            <li>Mauris iaculis pede a risus</li>
+                            <li>Suspendisse mollis</li>
+                            <li>Donec suscipit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end problems solving list widget -->

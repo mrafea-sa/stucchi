@@ -1,0 +1,128 @@
+/*
+ * Animation mixin
+ */
+@mixin keyframes($animation-name) {
+  @keyframes #{$animation-name} { @content; }
+}
+
+
+
+/*
+ * Font face mixin
+ */
+@mixin font-face($font-family, $file-path, $font-weight:'normal', $font-style:'normal') {
+  @font-face {
+    font-family: $font-family;
+      src: url('#{$file-path}.eot');
+      src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+           url('#{$file-path}.woff') format('woff'),
+           url('#{$file-path}.ttf') format('truetype'),
+           url('#{$file-path}.svg##{$font-family}') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+
+
+
+}
+/**
+ * Media Queries
+ */
+@mixin respondto($device) {
+  @each $name, $point in $breakpoints {
+    @if $name == $device {
+      @media #{$point} {
+        @content;
+      }
+    }
+  }
+}
+
+// Placeholder
+@mixin placeholder {
+
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
+
+}
+
+// Margins
+@for $i from 1 through 20 {
+    .margin-top-#{$i} {
+        margin-top: #{$i}rem;
+    }
+}
+
+@for $i from 1 through 20 {
+    .margin-bottom-#{$i} {
+        margin-bottom: #{$i}rem;
+    }
+}
+
+@for $i from 1 through 20 {
+    .margin-left-#{$i} {
+        margin-left: #{$i}rem;
+    }
+}
+
+@for $i from 1 through 20 {
+    .margin-right-#{$i} {
+        margin-right: #{$i}rem;
+    }
+}
+
+@for $i from 1 through 20 {
+    .margin-top-#{$i}--xs {
+        @include respondto(phone) {
+            margin-top: #{$i}rem;
+        }
+    }
+}
+
+@for $i from 1 through 20 {
+    .margin-bottom-#{$i}--xs {
+        @include respondto(phone) {
+            margin-bottom: #{$i}rem;
+        }
+    }
+} // Paddings
+@for $i from 1 through 20 {
+    .padding-top-#{$i} {
+        padding-top: #{$i}rem;
+    }
+}
+
+@for $i from 1 through 20 {
+    .padding-bottom-#{$i} {
+        padding-bottom: #{$i}rem;
+    }
+}
+
+@for $i from 1 through 20 {
+    .padding-left-#{$i} {
+        padding-left: #{$i}rem;
+    }
+}
+
+@for $i from 1 through 20 {
+    @include respondto(phone) {
+        .padding-left-#{$i}--xs {
+            padding-left: #{$i}rem;
+        }
+    }
+}
+
+@for $i from 1 through 20 {
+    .padding-right-#{$i} {
+        padding-right: #{$i}rem;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+@model dynamic
+
+
+<!-- product search widget -->
+<section class="product-search margin-bottom-14" ng-app="ProductsApp" ng-controller="ProductsController">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+                <div class="row">
+                    <div class="sidebar col-xs-12 col-sm-4">
+                        <h2 class="">FILTER</h2>
+                        <div class="box-product-search active">
+                            <p>Application</p>
+                            <div class="column-slide">
+                                <div class="column" ng-repeat="item in filters.Applications">
+                                    <input type="checkbox" id="{{item.Id}}" ng-model="item.isSetForFiltering" ng-click="setFilters()">
+                                    <label for="{{item.Id}}">{{item.Title}}</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product-search">
+                            <p>BODY SIZE</p>
+                            <div class="column-slide">
+                                <div class="column" ng-repeat="item in filters.BodySizes">
+                                    <input type="checkbox" id="{{item.Id}}" ng-model="item.isSetForFiltering" ng-click="setFilters()">
+                                    <label for="{{item.Id}}">{{item.Title}}</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product-search">
+                            <p>CONNECTION UNDER PRESSURE</p>
+                            <div class="column-slide">
+                                <div class="column" ng-repeat="item in filters.Connections">
+                                    <input type="checkbox" id="{{item.Id}}" ng-model="item.isSetForFiltering" ng-click="setFilters()">
+                                    <label for="{{item.Id}}">{{item.Title}}</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product-search">
+                            <p>WORKING PRESSURE</p>
+                            <div class="column-slide">
+                                <div class="column" ng-repeat="item in filters.WorkingPressures">
+                                    <input type="checkbox" id="{{item.Id}}" ng-model="item.isSetForFiltering" ng-click="setFilters()">
+                                    <label for="{{item.Id}}">{{item.Title}}</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-product-search">
+                            <p>MATERIAL</p>
+                            <div class="column-slide">
+                                <div class="column" ng-repeat="item in filters.Materials">
+                                    <input type="checkbox" id="{{item.Id}}" ng-model="item.isSetForFiltering" ng-click="setFilters()">
+                                    <label for="{{item.Id}}">{{item.Title}}</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main col-xs-12 col-sm-7 col-sm-offset-1 margin-top-5">
+                        <div class="box" ng-repeat="item in prodResult.Products">
+                            <p><span class="font-bold">SERIES: VEP </span>- {{item.Title}}</p>
+                        </div>
+
+                        <div class="box no-results" ng-if="prodResult != null && prodResult.Products.length == 0">
+                            <strong>There are no products to display</strong>
+                        </div>
+                        <button class="button button-white text-uppercase" ng-if="prodResult.HasMoreItems == true" ng-click="loadMoreProducts()">Load more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end product search widget -->
+
+<script>
+    // deferedJs.push("/Resources/Js/Widgets/products-search.js");
+</script>

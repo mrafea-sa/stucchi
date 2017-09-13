@@ -1,0 +1,100 @@
+@model dynamic
+
+<!-- contact us widget -->
+<section class="main-form margin-bottom-10 margin-top-8" ng-app="ContactUsApp" ng-controller="ContactUsController">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2" ng-if="!formErrors.IsSuccesssfullySent.status">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>Send us a message</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>First Name<span>*</span></label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.FirstName">
+                        <div class="form-control-error" ng-if="formErrors.FirstName.status">{{formErrors.FirstName.message}}</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Last Name<span>*</span></label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.LastName">
+                        <div class="form-control-error" ng-if="formErrors.LastName.status">{{formErrors.LastName.message}}</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Company<span>*</span></label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.Company">
+                        <div class="form-control-error" ng-if="formErrors.Company.status">{{formErrors.Company.message}}</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Phone </label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.Phone">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Address Line 1</label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.Address">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Address Line 2</label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.Address2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>City</label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.City">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>State</label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.State">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Zip Code</label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.Zip">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Country</label>
+                        <input type="text" name="" placeholder="" ng-model="formRequest.Country">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-push-6 checkbox column margin-bottom-3 ">
+                        <p class="text-uppercase">REASON FOR CONTACT:</p>
+                        <input type="checkbox" id="check1" name="" ng-model="formRequest.ReasonsForContact.RequestForDrawing.Status">
+                        <label for="check1">Request for drawing</label>
+                        <input type="checkbox" id="check2" name="" ng-model="formRequest.ReasonsForContact.RequestForCatalog.Status">
+                        <label for="check2">Request for catalog</label>
+                        <input type="checkbox" id="check3" name="" ng-model="formRequest.ReasonsForContact.RequestForProductSample.Status">
+                        <label for="check3">Request for product sample</label>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-sm-pull-6  column margin-bottom-5">
+                        <label>Comments</label>
+                        <textarea placeholder="" type="text" ng-model="formRequest.Message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 checkbox  column margin-bottom-5">
+                        <input type="checkbox" id="check4" name="">
+                        <label class="no-margin" for="check4" ng-model="formRequest.HasOptedForSubscription">Yes, I would like to receive future communication from Stucchi USA INC.</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 column margin-bottom-1">
+                        <button class="button button-white text-uppercase" ng-click="submitFormRequest()">send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-lg-8 col-lg-offset-2 text-center succes-message" ng-if="formErrors.IsSuccesssfullySent.status">
+            <p class="margin-bottom-2">Your message has been successfully sent.</p>
+            <button class="button button-white text-uppercase" ng-click="newFormRequest()">new message</button>
+        </div>
+    </div>
+</section>
+<!-- end contact us widget -->

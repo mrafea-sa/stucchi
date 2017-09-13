@@ -1,0 +1,46 @@
+<!-- search results widget -->
+<section class="search-results margin-top-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+                <div class="row">
+                    <div class="search-box col-xs-12 margin-bottom-8">
+                        <input type="text" name="" placeholder="">
+                        <button>Search</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box col-xs-12">
+                        <p class="font-bold">SERIES: VEP</p>
+                        <p>Morbi gravida lacus sed lorem. Mauris vestibulum. Cras vehicula porta eros. Curabitur ut justo vel pede elementum semper. Integer pretium pulvinar augue. Aenean ut nisl non lectus porta feugiat. </p>
+                    </div>
+                    <div class="box col-xs-12">
+                        <p class="font-bold">SERIES: VEP</p>
+                        <p>Morbi gravida lacus sed lorem. Mauris vestibulum. Cras vehicula porta eros. Curabitur ut justo vel pede elementum semper. Integer pretium pulvinar augue. Aenean ut nisl non lectus porta feugiat. </p>
+                    </div>
+                    <div class="box col-xs-12">
+                        <p class="font-bold">SERIES: VEP</p>
+                        <p>Morbi gravida lacus sed lorem. Mauris vestibulum. Cras vehicula porta eros. Curabitur ut justo vel pede elementum semper. Integer pretium pulvinar augue. Aenean ut nisl non lectus porta feugiat. </p>
+                    </div>
+                    <div class="box col-xs-12">
+                        <p class="font-bold">SERIES: VEP</p>
+                        <p>Morbi gravida lacus sed lorem. Mauris vestibulum. Cras vehicula porta eros. Curabitur ut justo vel pede elementum semper. Integer pretium pulvinar augue. Aenean ut nisl non lectus porta feugiat. </p>
+                    </div>
+                    <div class="box col-xs-12">
+                        <p class="font-bold">SERIES: VEP</p>
+                        <p>Morbi gravida lacus sed lorem. Mauris vestibulum. Cras vehicula porta eros. Curabitur ut justo vel pede elementum semper. Integer pretium pulvinar augue. Aenean ut nisl non lectus porta feugiat. </p>
+                    </div>
+                    <div class="box col-xs-12">
+                        <p class="font-bold">SERIES: VEP</p>
+                        <p>Morbi gravida lacus sed lorem. Mauris vestibulum. Cras vehicula porta eros. Curabitur ut justo vel pede elementum semper. Integer pretium pulvinar augue. Aenean ut nisl non lectus porta feugiat. </p>
+                    </div>
+                    <div class="box col-xs-12">
+                        <p class="font-bold">SERIES: VEP</p>
+                        <p>Morbi gravida lacus sed lorem. Mauris vestibulum. Cras vehicula porta eros. Curabitur ut justo vel pede elementum semper. Integer pretium pulvinar augue. Aenean ut nisl non lectus porta feugiat. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end search results widget -->

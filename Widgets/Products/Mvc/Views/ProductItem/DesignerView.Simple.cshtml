@@ -1,0 +1,130 @@
+@using Telerik.Sitefinity.Mvc;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+
+<link rel="stylesheet" href="/Resources/Widgets/Css/styles.css">
+<link rel="stylesheet" href="/Resources/Vendors/ColorPicker/bootstrap-colorpicker.min.css">
+
+<div class="widget-main">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="txtTitle">Title</label>
+                <input id="txtTitle" type="text" class="form-control" ng-model="properties.Title.PropertyValue" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="imgImage" class="m-top-sm">Image</label>
+                <sf-image-field class="sf-Media--info modal-settings modal-settings-space"
+                                sf-model="properties.Image.PropertyValue"
+                                sf-provider="">
+                </sf-image-field>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label>Details link</label>
+                <ul class="nav nav-tabs">
+                    <li ng-class="{'active' : properties.DetailsLinkPageSelectMode.PropertyValue == 'internal' || properties.DetailsLinkPageSelectMode.PropertyValue == ''}">
+                        <a data-toggle="tab" href="#internal" ng-click="properties.DetailsLinkPageSelectMode.PropertyValue = 'internal'">Internal</a>
+                    </li>
+                    <li ng-class="{'active' : properties.DetailsLinkPageSelectMode.PropertyValue == 'external'}">
+                        <a ng-click="properties.DetailsLinkPageSelectMode.PropertyValue = 'external'" data-toggle="tab" href="#external">External</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="internal" ng-class="{'tab-pane fade' : true, 'in active' : properties.DetailsLinkPageSelectMode.PropertyValue == 'internal' || properties.DetailsLinkPageSelectMode.PropertyValue == ''}">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <span>Title</span>
+                                <input type="text" class="form-control" ng-model="properties.DetailsLinkText.PropertyValue"  />
+                            </div>
+                            <div class="col-sm-6">
+                                <span>Page</span>
+                                <sf-list-selector sf-page-selector
+                                                  sf-selected-item-id="properties.DetailsLinkPageId.PropertyValue" ></sf-list-selector>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="external" ng-class="{'tab-pane fade' : true, 'in active' : properties.DetailsLinkPageSelectMode.PropertyValue == 'external'}">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <span>Title</span>
+                                <input type="text" class="form-control" ng-model="properties.DetailsLinkText.PropertyValue" />
+                            </div>
+                            <div class="col-sm-6">
+                                <span>Url</span>
+                                <input type="text" class="form-control" ng-model="properties.DetailsLinkUrl.PropertyValue" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label>ID Chart link</label>
+                <ul class="nav nav-tabs">
+                    <li ng-class="{'active' : properties.IDChartLinkPageSelectMode.PropertyValue == 'internal' || properties.IDChartLinkPageSelectMode.PropertyValue == ''}">
+                        <a data-toggle="tab" href="#internal" ng-click="properties.IDChartLinkPageSelectMode.PropertyValue = 'internal'">Internal</a>
+                    </li>
+                    <li ng-class="{'active' : properties.IDChartLinkPageSelectMode.PropertyValue == 'external'}">
+                        <a ng-click="properties.IDChartLinkPageSelectMode.PropertyValue = 'external'" data-toggle="tab" href="#external">External</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="internal" ng-class="{'tab-pane fade' : true, 'in active' : properties.IDChartLinkPageSelectMode.PropertyValue == 'internal' || properties.IDChartLinkPageSelectMode.PropertyValue == ''}">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <span>Title</span>
+                                <input type="text" class="form-control" ng-model="properties.IDChartLinkText.PropertyValue"  />
+                            </div>
+                            <div class="col-sm-6">
+                                <span>Page</span>
+                                <sf-list-selector sf-page-selector
+                                                  sf-selected-item-id="properties.IDChartLinkPageId.PropertyValue" ></sf-list-selector>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="external" ng-class="{'tab-pane fade' : true, 'in active' : properties.IDChartLinkPageSelectMode.PropertyValue == 'external'}">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <span>Title</span>
+                                <input type="text" class="form-control" ng-model="properties.IDChartLinkText.PropertyValue" />
+                            </div>
+                            <div class="col-sm-6">
+                                <span>Url</span>
+                                <input type="text" class="form-control" ng-model="properties.IDChartLinkUrl.PropertyValue" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="txtContent">Content</label>
+                <textarea id="txtContent" class="dsgWYSIWYG"></textarea>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="/client-components/fields/tinymce/init.js"></script>

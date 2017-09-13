@@ -1,0 +1,62 @@
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+                <div class="row">
+                    <div class="box col-xs-6 col-md-4">
+                        <h3 class="text-uppercase">Stucchi USA Inc.</h3>
+                        <p class="mobile">1105 Windham Parkway
+                            <br/> Romeoville, IL 60446</p>
+                        <p><span class="text-uppercase">Phone:</span> 847-956-9720</p>
+                        <p class="mobile"><span class="text-uppercase">Fax:</span> 847-956-9723</p>
+                        <p><span class="text-uppercase">email:</span> sales@stucchiusa.com</p>
+                        <div class="show-mobile">
+                        <p class="text-uppercase">FIND US ON</p>
+                        <ul class="socials-links">
+                            <li><a href="javascript:;" title="Linkedin"><img src="resources/images/icons/linkedin-ico.png" class="img-responsive" alt="Linkedin"></a></li>
+                            <li><a href="javascript:;" title="Vimeo"><img src="resources/images/icons/vimeo-ico.png" class="img-responsive" alt="Vimeo"></a></li>
+                            <li><a href="javascript:;" title="Youtube"><img src="resources/images/icons/youtube-ico.png" class="img-responsive" alt="Youtube"></a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="box col-xs-12 col-md-2 display-xs">
+                        <ul>
+                            <li><a href="javascript:;" title="Contact">contact</a></li>
+                            <li><a href="javascript:;" title="News & Events">news & events</a></li>
+                            <li><a href="javascript:;" title="Careers">careers</a></li>
+                            <li><a href="javascript:;" title="Company Policy">company policy</a></li>
+                            <li><a href="javascript:;" title="Site Map">site map</a></li>
+                        </ul>
+                    </div>
+                    <div class="box col-xs-12 col-md-2 display-xs">
+                        <p class="text-uppercase">FIND US ON</p>
+                        <ul class="socials-links">
+                            <li><a href="javascript:;" title="Linkedin"><img src="resources/images/icons/linkedin-ico.png" class="img-responsive" alt="Linkedin"></a></li>
+                            <li><a href="javascript:;" title="Vimeo"><img src="resources/images/icons/vimeo-ico.png" class="img-responsive" alt="Vimeo"></a></li>
+                            <li><a href="javascript:;" title="Youtube"><img src="resources/images/icons/youtube-ico.png" class="img-responsive" alt="Youtube"></a></li>
+                        </ul>
+                    </div>
+                    <div class="box col-xs-12 col-md-4">
+                        <p class="text-uppercase">convert your measurements</p>
+                        <div class="column">
+                            <input type="text" name="" placeholder="">
+                            <button>in</button>
+                        </div>
+                        <div class="column">
+                            <input type="text" name="" placeholder="">
+                            <button>cm</button>
+                        </div>
+                        <!-- <a href="javascript:;" class="button button-pink text-uppercase" title="Convert">convert</a> -->
+                    </div>
+                </div>
+                <div class="row black-bg">
+                    <div class="col-xs-12">
+                        <img src="resources/images/celebrating-years-logo.png" class="img-responsive margin-top-1" alt="Celebrating Years">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->

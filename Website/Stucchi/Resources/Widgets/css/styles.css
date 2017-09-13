@@ -1,0 +1,14 @@
+.sf-backend-wrp .widget-main .kendo-content-block {
+    margin: 20px 0 0 0;
+    border: 1px solid #f2f2f2;
+}
+
+.sf-backend-wrp .widget-main .nav > li > a {
+    padding: 5px 15px;
+}
+
+.sf-backend-wrp .widget-main .tab-pane {
+    padding: 10px;
+}
+
+

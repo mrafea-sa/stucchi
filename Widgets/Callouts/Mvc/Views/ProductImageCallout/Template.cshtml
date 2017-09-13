@@ -1,0 +1,32 @@
+@model dynamic
+
+<!-- column three product widget -->
+<section class="column-three-product margin-top-9 margin-bottom-5">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+                <div class="row flexbox">
+
+                    @foreach (var item in Model.ItemsSelectedItems)
+                    {
+                        <div class="box col-xs-4">
+                            @if (item.LinkLinks.Count > 0)
+                            {
+                                <a href="@item.LinkLinks[0].Url" title="@item.DisplayTitle">
+                                    @if (item.ImageMediaAssets.Count > 0)
+                                    {
+                                        <img src="@item.ImageMediaAssets[0].Src" alt="@item.ImageMediaAssets[0].Alt" class="img-responsive margin-bottom-1">
+                                    }
+                                    <p>@item.DisplayTitle</p>
+                                    <span href="@item.LinkLinks[0].Url" class="button button-pink text-uppercase">@Html.Raw(@item.ButtonText)</span>
+                                </a>
+                            }
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end column three product widget -->

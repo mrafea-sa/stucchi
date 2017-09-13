@@ -1,0 +1,59 @@
+@model dynamic
+
+
+<!-- problems image uploader widget -->
+<section class="problems-image-uploader margin-top-6" ng-app="ImageSubmissionApp">
+    <div class="container image-submission-widget" ng-controller="ImageSubmissionController">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 grey-bg" ng-if="!formErrors.IsSuccesssfullySent.status">
+                <div class="row">
+                    <div class="box box-left font-left col-xs-12 col-sm-6">
+                        <h2>Image Uploader</h2>
+                        @Html.Raw(Model.Content)
+                        <div>
+                            <upload-file file-type="FLYER_IMAGE" label="Select Flyer Image" recommended-size="Size (W x H)" recommended-width="Min 1200px" recommended-height="360px" on-success="rfc.onUploadFlyerImageSuccessHandler(response)" on-error="rfc.onUploadFlyerImageErrorHandler(error)" on-remove="rfc.onUploadFlyerImageRemoveHandler()"></upload-file>
+                        </div>
+                    </div>
+                    <div class="box box-right col-xs-12 col-sm-6">
+                        <div class="row">
+                            <div class="col-xs-12 column margin-bottom-1">
+                                <label>Name<span>*</span></label>
+                                <input type="text" name="" placeholder="" ng-model="formRequest.FullName">
+                                <div class="form-control-error" ng-if="formErrors.FullName.status">{{formErrors.FullName.message}}</div>
+                            </div>
+                            <div class="col-xs-12  column margin-bottom-1">
+                                <label>Company<span>*</span></label>
+                                <input type="text" name="" placeholder="" ng-model="formRequest.Company">
+                                <div class="form-control-error" ng-if="formErrors.Company.status">{{formErrors.Company.message}}</div>
+                            </div>
+                            <div class="col-xs-12  column margin-bottom-1">
+                                <label>Phone Number </label>
+                                <input type="text" name="" placeholder="" ng-model="formRequest.PhoneNumber">
+                            </div>
+                            <div class="col-xs-12  column margin-bottom-1">
+                                <label>Email<span>*</span></label>
+                                <input type="text" name="" placeholder="" ng-model="formRequest.Email">
+                                <div class="form-control-error" ng-if="formErrors.Email.status">{{formErrors.Email.message}}</div>
+                            </div>
+                            <div class="col-xs-12  column margin-bottom-1">
+                                <label>Comments</label>
+                                <input type="text" name="" placeholder="" ng-model="formRequest.Comments">
+                            </div>
+                            <div class="col-xs-12 column margin-bottom-1 margin-top-1">
+                                <button class="button button-white text-uppercase" ng-click="submitFormRequest()">submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2 text-center succes-message" ng-if="formErrors.IsSuccesssfullySent.status">
+                <p class="margin-bottom-2">Your image has been successfully sent.</p>
+                @*<button class="button button-white text-uppercase" ng-click="newFormRequest()">new image</button>*@
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end problems image uploader widget -->
+<script>
+    deferedJs.push("https://www.google.com/recaptcha/api.js");
+</script>

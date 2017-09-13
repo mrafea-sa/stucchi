@@ -1,0 +1,78 @@
+<!-- contact us widget -->
+<section class="main-form margin-bottom-10 margin-top-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>Send us a message</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>First Name</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Last Name</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Company</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Phone </label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Address Line 1</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Address Line 2</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>City</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>State</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Zip Code</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 column margin-bottom-1">
+                        <label>Country</label>
+                        <input type="text" name="" placeholder="">
+                    </div>
+                     <div class="col-xs-12 col-sm-6 col-sm-push-6 checkbox column margin-bottom-3 ">
+                        <p class="text-uppercase">REASON FOR CONTACT:</p>
+                        <input type="checkbox" id="check1" name="">
+                        <label for="check1">Request for drawing</label>
+                        <input type="checkbox" id="check2" name="">
+                        <label for="check2">Request for catalog</label>
+                        <input type="checkbox" id="check3" name="">
+                        <label for="check3">Request for product sample</label>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-sm-pull-6  column margin-bottom-5">
+                        <label>Comments</label>
+                        <textarea placeholder="" type="text"></textarea>
+                    </div>
+
+                    <div class="col-xs-12 checkbox  column margin-bottom-5">
+                        <input type="checkbox" id="check4" name="">
+                        <label class="no-margin" for="check4">Yes, I would like to receive future communication from Stucchi USA INC.</label>
+                    </div>
+                    <div class="col-xs-12 column margin-bottom-1">
+                        <button class="button button-white text-uppercase">send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact us widget -->

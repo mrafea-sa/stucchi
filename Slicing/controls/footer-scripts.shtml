@@ -1,0 +1,10 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="resources/js/jquery.easing.min.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<script src="resources/js/owl.carousel.min.js"></script>
+<!-- <script src="resources/js/TweenMax.min.js"></script>
+<script src="resources/js/ScrollMagic.js"></script>
+<script src="resources/js/animation.gsap.js"></script>
+<script src="resources/js/debug.addIndicators.js"></script>
+<script src="resources/js/ScrollToPlugin.min.js"></script> -->
+<script src="resources/js/main.js"></script>

@@ -1,0 +1,37 @@
+<!-- problems videos widget -->
+<section class="problems-videos margin-top-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1">
+                <div class="row">
+                    <div class="box col-xs-12 col-sm-6 col-sm-offset-3 ">
+                        <h2>Video 1</h2>
+                        <img src="resources/images/products/video-image.jpg" class="img-responsive margin-bottom-1" alt="Image Video">
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. </p>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="box col-xs-12 col-sm-6 col-sm-offset-3">
+                        <h2>Video 2</h2>
+                        <img src="resources/images/products/video-image.jpg" class="img-responsive margin-bottom-1" alt="Image Video">
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. </p>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="box col-xs-12 col-sm-6 col-sm-offset-3">
+                        <h2>Video 3</h2>
+                        <img src="resources/images/products/video-image.jpg" class="img-responsive margin-bottom-1" alt="Image Video">
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end problems videos widget -->

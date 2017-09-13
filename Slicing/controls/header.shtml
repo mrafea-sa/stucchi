@@ -1,0 +1,51 @@
+<!-- header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+                <a class="logo" href="#"><img src="resources/images/header-logo.png"></a>
+                <div class="menu-mobile">
+                        <a href="#" class="button-menu">
+                        </a>
+                        <a href="#" class="button-search"><i class="fa fa-search"></i></a>
+                        <div class="search-box-hide">
+                            <input type="text" placeholder="Search and hit enter">
+                            <input type="submit" class="submit">
+                            <button class="close-btn"><i class="fa fa-times"></i></button>
+                        </div>
+                    </div>
+                <ul class="menu left">
+
+                    <li><a class="no-transition" href="#">Products</a></li>
+                    <li><a class="no-transition carrot" href="#">Industries</a>
+                        <ul>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Oil & Gas</a></li>
+                            <li><a href="#">Industrial</a></li>
+                            <li><a href="#">Agricultural</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="no-transition carrot" href="#">stucchi promise</a>
+                            <ul>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Oil & Gas</a></li>
+                            <li><a href="#">Industrial</a></li>
+                            <li><a href="#">Agricultural</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="no-transition" href="#">solution source</a></li>
+                    <li class="mobile"><a class="no-transition" href="#">Search</a></li>
+                    <li class="mobile"><a class="no-transition" href="#">Contact</a></li>
+                </ul>
+                <ul class="menu-right right">
+                    <li>
+                        <input type="text" name="q" id="query" placeholder="Search..." class="input-search" width-default="110" autocomplete="off">
+                        <button class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<!--end  header -->

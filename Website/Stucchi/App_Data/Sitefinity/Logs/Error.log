@@ -1,0 +1,144 @@
+----------------------------------------
+Timestamp: 9/9/2017 11:02:55 AM
+
+Message: HandlingInstanceID: 945a1e80-2a22-470c-8d5c-99c0d55eae3a
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+09/09/2017 14:02:55
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Template' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/ImageSubmission/Template.cshtml
+~/Views/Shared/Template.cshtml
+~/Frontend-Assembly/Forms/Mvc/Views/ImageSubmission/Template.cshtml
+~/Frontend-Assembly/Forms/Mvc/Views/Shared/Template.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/ImageSubmission/Template.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Template.cshtml
+~/Views/ImageSubmission/Template.aspx
+~/Views/ImageSubmission/Template.ascx
+~/Views/Shared/Template.aspx
+~/Views/Shared/Template.ascx
+~/Frontend-Assembly/Forms/Mvc/Views/ImageSubmission/Template.aspx
+~/Frontend-Assembly/Forms/Mvc/Views/ImageSubmission/Template.ascx
+~/Frontend-Assembly/Forms/Mvc/Views/Shared/Template.aspx
+~/Frontend-Assembly/Forms/Mvc/Views/Shared/Template.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/ImageSubmission/Template.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/ImageSubmission/Template.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Template.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Template.ascx
+~/Views/ImageSubmission/Template.vbhtml
+~/Views/Shared/Template.vbhtml
+~/Frontend-Assembly/Forms/Mvc/Views/ImageSubmission/Template.vbhtml
+~/Frontend-Assembly/Forms/Mvc/Views/Shared/Template.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/ImageSubmission/Template.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Template.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DREAMER
+TimeStamp : 9/9/2017 11:02:55 AM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6501.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-7-131494285178296608
+ThreadIdentity : admin@example.org
+WindowsIdentity : IIS APPPOOL\DefaultAppPool
+Requested URL : http://localhost/problem-solving
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DREAMER
+
+App Domain: /LM/W3SVC/1/ROOT-7-131494285178296608
+
+ProcessId: 19668
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:5344
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 9/9/2017 3:43:23 PM
+
+Message: HandlingInstanceID: 2fdf983a-ca50-4faf-bdbc-46a3871fbdfd
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+09/09/2017 18:43:23
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Not found
+Source : Telerik.Sitefinity.Frontend
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at Telerik.Sitefinity.Frontend.Resources.ResourceHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DREAMER
+TimeStamp : 9/9/2017 3:43:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=10.1.6501.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/1/ROOT-3-131494451601682087
+ThreadIdentity : admin@example.org
+WindowsIdentity : IIS APPPOOL\DefaultAppPool
+Requested URL : http://localhost/Frontend-Assembly/Telerik.Sitefinity.Frontend/assets/dist/css/Material/loading.gif
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DREAMER
+
+App Domain: /LM/W3SVC/1/ROOT-3-131494451601682087
+
+ProcessId: 8788
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3368
+
+Extended Properties: 
+----------------------------------------

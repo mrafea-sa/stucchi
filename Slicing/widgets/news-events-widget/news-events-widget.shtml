@@ -1,0 +1,36 @@
+<!-- news events widget -->
+<section class="news-events-widget margin-bottom-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row column">
+                    <div class="col-xs-12">
+                        <h2 class="text-left text-uppercase font-28">PRESS RELEASE</h2>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam.</p>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div class="col-xs-12">
+                        <h2 class="text-left text-uppercase font-28">PRESS RELEASE</h2>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam.</p>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div class="col-xs-12">
+                        <h2 class="text-left text-uppercase font-28">EVENT NAME</h2>
+                        <p class="date text-uppercase">DATE, LOCATION</p>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam.</p>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div class="col-xs-12">
+                        <h2 class="text-left text-uppercase font-28">EVENT NAME</h2>
+                        <p class="date text-uppercase">DATE, LOCATION</p>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end news events widget -->

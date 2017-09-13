@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E611332-0A23-4F3C-A73B-1222BD520E75}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Callouts</RootNamespace>
+    <AssemblyName>Callouts</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Runtime">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.OpenAccess.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Sync">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.OpenAccess.Sync.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Web">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.OpenAccess.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity, Version=10.1.6501.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.ContentModules">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.ContentModules.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Frontend">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Frontend.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Frontend.Data">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Frontend.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Model">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Mvc">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Personalization">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Personalization.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.RecurrentRules">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.RecurrentRules.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Resources">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Search">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Comments">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Services.Comments.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Comments.Impl">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Services.Comments.Impl.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Documents">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Services.Documents.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Events">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Services.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Notifications">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.RecycleBin">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Statistics">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.SiteSync">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.SiteSync.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Utilities">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Sitefinity.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.RadUploadHandler">
+      <HintPath>..\..\Website\Stucchi\bin\Telerik.Windows.RadUploadHandler.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mvc\Controllers\ApplicationCalloutController.cs" />
+    <Compile Include="Mvc\Controllers\BackgroundImageCalloutController.cs" />
+    <Compile Include="Mvc\Controllers\CircleImageCalloutController.cs" />
+    <Compile Include="Mvc\Controllers\IconCalloutController.cs" />
+    <Compile Include="Mvc\Controllers\IDChartCalloutController.cs" />
+    <Compile Include="Mvc\Controllers\ProductImageCalloutController.cs" />
+    <Compile Include="Mvc\Models\ApplicationCalloutModel.cs" />
+    <Compile Include="Mvc\Models\ApplicationCalloutViewModel.cs" />
+    <Compile Include="Mvc\Models\BackgroundImageCalloutModel.cs" />
+    <Compile Include="Mvc\Models\BackgroundImageCalloutViewModel.cs" />
+    <Compile Include="Mvc\Models\CircleImageCalloutModel.cs" />
+    <Compile Include="Mvc\Models\CircleImageCalloutViewModel.cs" />
+    <Compile Include="Mvc\Models\IconCalloutModel.cs" />
+    <Compile Include="Mvc\Models\IconCalloutViewModel.cs" />
+    <Compile Include="Mvc\Models\IDChartCalloutModel.cs" />
+    <Compile Include="Mvc\Models\IDChartCalloutViewModel.cs" />
+    <Compile Include="Mvc\Models\ProductImageCalloutModel.cs" />
+    <Compile Include="Mvc\Models\ProductImageCalloutViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_Core\_Core.csproj">
+      <Project>{1ed9aeab-6b72-4cfc-8b60-67dd7e42fff9}</Project>
+      <Name>_Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <EmbeddedResource Include="Mvc\Views\BackgroundImageCallout\DesignerView.Simple.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\BackgroundImageCallout\DesignerView.Simple.json" />
+    <EmbeddedResource Include="Mvc\Views\BackgroundImageCallout\Template.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\ApplicationCallout\DesignerView.Simple.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\ApplicationCallout\DesignerView.Simple.json" />
+    <EmbeddedResource Include="Mvc\Views\ApplicationCallout\Template.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\CircleImageCallout\DesignerView.Simple.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\CircleImageCallout\DesignerView.Simple.json" />
+    <EmbeddedResource Include="Mvc\Views\CircleImageCallout\Template.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\IconCallout\DesignerView.Simple.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\IconCallout\DesignerView.Simple.json" />
+    <EmbeddedResource Include="Mvc\Views\IconCallout\Template.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\ProductImageCallout\DesignerView.Simple.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\ProductImageCallout\DesignerView.Simple.json" />
+    <EmbeddedResource Include="Mvc\Views\ProductImageCallout\Template.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\IDChartCallout\DesignerView.Simple.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\IDChartCallout\DesignerView.Simple.json" />
+    <EmbeddedResource Include="Mvc\Views\IDChartCallout\Template.cshtml" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mvc\Scripts\BackgroundImageCallout\designerview-simple.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mvc\Scripts\ApplicationCallout\designerview-simple.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mvc\Scripts\CircleImageCallout\designerview-simple.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mvc\Scripts\IconCallout\designerview-simple.js" />
+    <EmbeddedResource Include="Mvc\Scripts\ProductImageCallout\designerview-simple.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mvc\Scripts\IDChartCallout\designerview-simple.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

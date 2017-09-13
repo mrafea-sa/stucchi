@@ -1,0 +1,12 @@
+<!-- pink line widget -->
+<section class="pink-line-widget padding-top-3 padding-bottom-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <h1 class="font-32 text-center text-uppercase">your next great solution</h1>
+                <p class="font-18 text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end pink line widget -->

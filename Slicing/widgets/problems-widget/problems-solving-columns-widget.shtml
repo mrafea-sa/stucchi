@@ -1,0 +1,38 @@
+<!-- problems solving columns widget -->
+<section class="problems-solving-column margin-top-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h2 class="text-center">COUPLER I.D. CHARTS</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box text-center col-xs-12 col-sm-4">
+                        <a href="javascript:;" title="OPTION 1">
+                        <img src="resources/images/products/default-img.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                        <p class="font-bold font-uppercase">OPTION 1</p>
+                        <p>Suspendisse mollis donec suscipit.</p>
+                        </a>
+                    </div>
+                    <div class="box text-center col-xs-12 col-sm-4">
+                        <a href="javascript:;" title="OPTION 2">
+                        <img src="resources/images/products/default-img.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                        <p class="font-bold font-uppercase">OPTION 2</p>
+                        <p>Suspendisse mollis donec suscipit.</p>
+                        </a>
+                    </div>
+                    <div class="box text-center col-xs-12 col-sm-4">
+                        <a href="javascript:;" title="OPTION 3">
+                        <img src="resources/images/products/default-img.jpg" class="img-responsive margin-bottom-1" alt="Image">
+                        <p class="font-bold font-uppercase">OPTION 3</p>
+                        <p>Suspendisse mollis donec suscipit.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end problems solving columns widget -->

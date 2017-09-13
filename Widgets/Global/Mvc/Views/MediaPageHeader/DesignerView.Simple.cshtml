@@ -1,0 +1,98 @@
+@using Telerik.Sitefinity.Mvc;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+
+<link rel="stylesheet" href="/Resources/Widgets/Css/styles.css">
+<link rel="stylesheet" href="/Resources/Vendors/ColorPicker/bootstrap-colorpicker.min.css">
+
+<div class="widget-main">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="imgProductImage" class="m-top-sm">Product Image</label>
+                <sf-image-field class="sf-Media--info modal-settings modal-settings-space"
+                                sf-model="properties.ProductImage.PropertyValue"
+                                sf-provider="">
+                </sf-image-field>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="txtMainContent">Page template</label>
+                <select id="lstAlignmentOptions" class="form-control" ng-model="properties.PageTemplate.PropertyValue">
+                    <option value="homepage" selected>Homepage</option>
+                    <option value="inner">Innerpage</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="imgBackgroundImage" class="m-top-sm">Background Image</label>
+                <sf-image-field class="sf-Media--info modal-settings modal-settings-space"
+                                sf-model="properties.BackgroundImage.PropertyValue"
+                                sf-provider="">
+                </sf-image-field>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label>Link URL</label>
+                <ul class="nav nav-tabs">
+                    <li ng-class="{'active' : properties.LinkURLPageSelectMode.PropertyValue == 'internal' || properties.LinkURLPageSelectMode.PropertyValue == ''}">
+                        <a data-toggle="tab" href="#internal" ng-click="properties.LinkURLPageSelectMode.PropertyValue = 'internal'">Internal</a>
+                    </li>
+                    <li ng-class="{'active' : properties.LinkURLPageSelectMode.PropertyValue == 'external'}">
+                        <a ng-click="properties.LinkURLPageSelectMode.PropertyValue = 'external'" data-toggle="tab" href="#external">External</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="internal" ng-class="{'tab-pane fade' : true, 'in active' : properties.LinkURLPageSelectMode.PropertyValue == 'internal' || properties.LinkURLPageSelectMode.PropertyValue == ''}">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <span>Title</span>
+                                <input type="text" class="form-control" ng-model="properties.LinkURLText.PropertyValue"  />
+                            </div>
+                            <div class="col-sm-6">
+                                <span>Page</span>
+                                <sf-list-selector sf-page-selector
+                                                  sf-selected-item-id="properties.LinkURLPageId.PropertyValue" ></sf-list-selector>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="external" ng-class="{'tab-pane fade' : true, 'in active' : properties.LinkURLPageSelectMode.PropertyValue == 'external'}">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <span>Title</span>
+                                <input type="text" class="form-control" ng-model="properties.LinkURLText.PropertyValue" />
+                            </div>
+                            <div class="col-sm-6">
+                                <span>Url</span>
+                                <input type="text" class="form-control" ng-model="properties.LinkURLUrl.PropertyValue" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="txtMainContent">Main Content</label>
+                <textarea id="txtMainContent" class="dsgWYSIWYG"></textarea>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="/client-components/fields/tinymce/init.js"></script>

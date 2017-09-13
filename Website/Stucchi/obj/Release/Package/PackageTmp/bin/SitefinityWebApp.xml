@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SitefinityWebApp</name>
+    </assembly>
+    <members>
+        <member name="T:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker">
+            <summary>
+            A simple field control used to save a string value.
+            Use the path to this class when you add the field control
+            SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker
+            </summary>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker"/> class.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker.LayoutTemplateName">
+            <summary>
+            Obsolete. Use LayoutTemplatePath instead.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker.LayoutTemplatePath">
+            <summary>
+            Gets the layout template's relative or virtual path.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker.TitleLabel">
+            <summary>
+            Gets the reference to the label control that represents the title of the field control.
+            </summary>
+            <remarks>
+            This control is mandatory only in write mode.
+            </remarks>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker.DescriptionLabel">
+            <summary>
+            Gets the reference to the label control that represents the description of the field control.
+            </summary>
+            <remarks>
+            This control is mandatory only in write mode.
+            </remarks>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker.ExampleLabel">
+            <summary>
+            Gets the reference to the label control that displays the example for this
+            field control.
+            </summary>
+            <remarks>
+            This control is mandatory only in the write mode.
+            </remarks>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPicker.TextBoxControl">
+            <summary>
+            Gets the text box control.
+            </summary>
+            <value>The text box control.</value>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.ColorPeeker.IColorPickerDefinition.SampleText">
+            <summary>
+            Gets or sets the sample text.
+            </summary>
+            <value>The sample text.</value>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPickerDefinition.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPickerDefinition"/> class.
+            </summary>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPickerDefinition.#ctor(Telerik.Sitefinity.Configuration.ConfigElement)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPickerDefinition"/> class.
+            </summary>
+            <param name="configDefinition">The config definition.</param>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPickerDefinition.SampleText">
+            <summary>
+            Gets or sets the sample text.
+            </summary>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPickerDefinitionElement.#ctor(Telerik.Sitefinity.Configuration.ConfigElement)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPickerDefinitionElement"/> class.
+            </summary>
+            <param name="parent">The parent.</param>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.ColorPeeker.ColorPickerDefinitionElement.SampleText">
+            <summary>
+            Gets or sets the sample text.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.IPageSelectorFieldDefinition.DynamicModuleType">
+            <summary>
+            Gets or sets the dynamic module type.
+            </summary>
+            <value>The dynamic module type.</value>
+        </member>
+        <member name="T:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField">
+            <summary>
+            A simple field control used to save a string value.
+            Use the path to this class when you add the field control
+            SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField
+            </summary>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField"/> class.
+            </summary>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.ConstructControl">
+            <summary>
+            The method that is used to set the properties of the contained controls.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.LayoutTemplateName">
+            <summary>
+            Obsolete. Use LayoutTemplatePath instead.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.LayoutTemplatePath">
+            <summary>
+            Gets the layout template's relative or virtual path.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.TitleLabel">
+            <summary>
+            Gets the reference to the label control that represents the title of the field control.
+            </summary>
+            <remarks>
+            This control is mandatory only in write mode.
+            </remarks>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.DescriptionLabel">
+            <summary>
+            Gets the reference to the label control that represents the description of the field control.
+            </summary>
+            <remarks>
+            This control is mandatory only in write mode.
+            </remarks>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.ExampleLabel">
+            <summary>
+            Gets the reference to the label control that displays the example for this
+            field control.
+            </summary>
+            <remarks>
+            This control is mandatory only in the write mode.
+            </remarks>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.SelectLink">
+            <summary>
+            Gets a reference to the link that opens the page selector.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.PopupDialog">
+            <summary>
+            Gets a reference to the &gt;div&lt; tag that contains the select popup dialog.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.PageSelector">
+            <summary>
+            Gets an instance of the image selector
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.SelectedPageLabel">
+            <summary>
+            Gets a reference to the label that displays the currently selected page.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorField.UICulture">
+            <summary>
+            Gets or sets the UI culture.
+            </summary>
+            <value>The UI culture.</value>
+        </member>
+        <member name="T:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldDefinition">
+            <summary>
+            A control definition for the simple image field
+            </summary>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldDefinition.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldDefinition"/> class.
+            </summary>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldDefinition.#ctor(Telerik.Sitefinity.Configuration.ConfigElement)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldDefinition"/> class.
+            </summary>
+            <param name="element">The configuration element used to persist the control definition.</param>
+        </member>
+        <member name="T:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldElement">
+            <summary>
+            A configuration element used to persist the properties of <see cref="T:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldDefinition"/>
+            </summary>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldElement.#ctor(Telerik.Sitefinity.Configuration.ConfigElement)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldElement"/> class.
+            </summary>
+            <param name="parent">The parent.</param>
+        </member>
+        <member name="M:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldElement.GetDefinition">
+            <summary>
+            Gets an instance of the <see cref="T:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldDefinition"/> class.
+            </summary>
+        </member>
+        <member name="P:SitefinityWebApp.Application.Fields.PageSelector.PageSelectorFieldElement.DynamicModuleType">
+            <summary>
+            Gets or sets the dynamic module type
+            </summary>
+        </member>
+        <member name="T:SitefinityWebApp.AzureWebRole">
+            <summary>
+            Sitefinity's Windows Azure role entry point.
+            </summary>
+            <remarks>
+            Windows Azure looks for RoleEntryPoint inheritors only in the web role assembly and that is why this class is defined here.
+            The functionality goes into the base class - <see cref="T:Telerik.Sitefinity.Cloud.WindowsAzure.AzureWebRoleBase"/>.
+            </remarks>
+        </member>
+    </members>
+</doc>

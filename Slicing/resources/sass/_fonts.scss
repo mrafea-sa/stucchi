@@ -1,0 +1,33 @@
+// Muli
+@include font-face('muliitalic', '../fonts/muli-italic-webfont');
+@include font-face('mulilight', '../fonts/muli-light-webfont');
+@include font-face('mulilight_italic', '../fonts/muli-lightitalic-webfont');
+@include font-face('muliregular', '../fonts/muli-regular-webfont');
+@include font-face('mulisemibold', '../fonts/muli-semibold-webfont');
+@include font-face('mulibold', '../fonts/muli-bold-webfont');
+
+// Gobold
+@include font-face('gobold_boldregular', '../fonts/gobold_bold-webfont');
+@include font-face('gobold_thin_lightregular', '../fonts/gobold_light-webfont');
+@include font-face('goboldregular', '../fonts/gobold_regular-webfont');
+@include font-face('gobold_thinregular', '../fonts/gobold_thin-webfont');
+
+// Font Awesome
+@include font-face('FontAwesome', '../fonts/font-awseme/fontawesome-webfont');
+
+
+$font-sizes: (10, 12, 13, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 36, 38, 48, 49, 65);
+
+@each $font-size in $font-sizes {
+  .font-#{ $font-size } {
+    font-size: #{ ($font-size / 10) + 'rem' };
+  }
+}
+
+@each $font-size in $font-sizes {
+  .font-#{ $font-size }--xs {
+    @include respondto(phone) {
+      font-size: #{ ($font-size / 10) + 'rem' };
+    }
+  }
+}

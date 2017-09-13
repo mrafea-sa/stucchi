@@ -1,0 +1,46 @@
+<!-- problems image uploader widget -->
+<section class="problems-image-uploader margin-top-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 grey-bg">
+                <div class="row">
+                    <div class="box box-left font-left col-xs-12 col-sm-6">
+                        <h2>Image Uploader</h2>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. </p>
+                        <a href="javascript:;" class="" title="Image Uploader">
+                        <img src="resources/images/products/image-upload.jpg" class="img-responsive margin-bottom-1" alt="Image Uploader">
+                        </a>
+                    </div>
+                    <div class="box box-right col-xs-12 col-sm-6">
+                        <div class="row">
+                            <div class="col-xs-12 column margin-bottom-1">
+                                <label>Name</label>
+                                <input type="text" name="" placeholder="">
+                            </div>
+                            <div class="col-xs-12  column margin-bottom-1">
+                                <label>Company</label>
+                                <input type="text" name="" placeholder="">
+                            </div>
+                            <div class="col-xs-12  column margin-bottom-1">
+                                <label>Phone Number </label>
+                                <input type="text" name="" placeholder="">
+                            </div>
+                            <div class="col-xs-12  column margin-bottom-1">
+                                <label>Email</label>
+                                <input type="text" name="" placeholder="">
+                            </div>
+                            <div class="col-xs-12  column margin-bottom-1">
+                                <label>Comments</label>
+                                <input type="text" name="" placeholder="">
+                            </div>
+                            <div class="col-xs-12 column margin-bottom-1 margin-top-1">
+                                <button class="button button-white text-uppercase">submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end problems image uploader widget -->

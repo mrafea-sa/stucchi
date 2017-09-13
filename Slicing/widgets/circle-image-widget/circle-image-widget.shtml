@@ -1,0 +1,55 @@
+<!-- promise widget -->
+<section class="circle-image-widget margin-bottom-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row column display-flex align-items-center">
+                    <div class="col-xs-12 col-md-5 image-box">
+                        <img class="round-image img-responsive" src="resources/images/icons/round-ico.png" alt="Round Image">
+                    </div>
+                    <div class="col-xs-12  col-md-7 text-box">
+                        <h3 class="font-26">FIRST TO MARKET</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet.</p>
+                    </div>
+                </div>
+                <div class="row column grey-bg display-flex align-items-center">
+                    <div class="col-xs-12 col-md-7  text-box">
+                        <h3 class="font-26">FIRST TO MARKET</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet.</p>
+                    </div>
+                    <div class="col-xs-12 col-md-5 image-box">
+                        <img class="round-image img-responsive" src="resources/images/icons/round-ico.png" alt="Round Image">
+                    </div>
+                </div>
+                <div class="row column display-flex align-items-center">
+                    <div class="col-xs-12 col-md-5 image-box">
+                        <img class="round-image img-responsive" src="resources/images/icons/round-ico.png" alt="Round Image">
+                    </div>
+                    <div class="col-xs-12  col-md-7 text-box">
+                        <h3 class="font-26">FIRST TO MARKET</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet.</p>
+                    </div>
+                </div>
+                <div class="row column grey-bg display-flex align-items-center">
+                    <div class="col-xs-12 col-md-7  text-box">
+                        <h3 class="font-26">FIRST TO MARKET</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet.</p>
+                    </div>
+                    <div class="col-xs-12 col-md-5 image-box">
+                        <img class="round-image img-responsive" src="resources/images/icons/round-ico.png" alt="Round Image">
+                    </div>
+                </div>
+                <div class="row column display-flex align-items-center">
+                    <div class="col-xs-12 col-md-5 image-box">
+                        <img class="round-image img-responsive" src="resources/images/icons/round-ico.png" alt="Round Image">
+                    </div>
+                    <div class="col-xs-12  col-md-7 text-box">
+                        <h3 class="font-26">FIRST TO MARKET</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end promise widget -->

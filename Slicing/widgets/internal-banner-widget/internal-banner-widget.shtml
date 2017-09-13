@@ -1,0 +1,15 @@
+<!-- internal banner -->
+<section class="internal-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-10 col-lg-offset-1 relative full-height">
+                <div class="box">
+                    <h2 class="text-center text-uppercase font-30">STUCCHI <span>PROMISE</span></h2>
+                    <p class="text-center text-uppercase font-20">helping you move forward</p>
+                </div>
+                <img class="internal-image absolute img-responsive" src="resources/images/internal-banner-image.png" alt="Internal Image Banner">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end internal banner -->

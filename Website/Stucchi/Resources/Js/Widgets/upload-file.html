@@ -1,0 +1,55 @@
+﻿<div data-ng-if="vm.label" class="label">
+    <p>{[ vm.label ]}</p>
+</div>
+
+<div data-ng-if="(vm.recommendedWidth && vm.recommendedHeight) || vm.information" class="information">
+    <i class="uploadicons iconexclamationcircle"></i>
+
+    <div>
+        <p data-ng-if="vm.recommendedWidth && vm.recommendedHeight">{[ vm.recommendedSize ]}: {[ vm.recommendedWidth ]} x {[ vm.recommendedHeight ]}</p>
+        <p data-ng-if="vm.information">{[ vm.information ]}</p>
+    </div>
+</div>
+
+<div data-ng-class="{ 'show-controls': vm.showControls, 'bg-done': vm.fileUploaded }" class="upload-container text-center upload-{[fileExtension]}">
+    <div class="preview-image">
+        <div class="edit-controls">
+            <i ngf-select="vm.uploadFileClickHandler($files)"
+               class="edit-control uploadicons iconpencil"></i>
+            <i data-ng-click="vm.removeClickHandler()"
+               class="edit-control uploadicons iconcancelcircled"></i>
+        </div>
+
+        <span class="upload-progress-label center-me" data-ng-if="!vm.fileUploaded && vm.progressValue > 0">Uploading...</span>
+
+        <span class="upload-progress-label center-me" data-ng-if="vm.fileUploaded">Rendering...</span>
+
+        <i ngf-select="vm.uploadFileClickHandler($files)"
+           data-ng-if="!vm.fileUploaded && vm.progressValue === 0"
+           class="uploadicons iconuploadcloud upload-btn center-me"></i>
+
+        <div data-ng-if="vm.progressValue === 100">
+            <div class=" loader-content"></div>
+        </div>
+        <img data-ng-if="vm.fileUploaded" data-ng-src="{[ vm.fileUrl ]}" class="img-preview" />
+        <div data-ng-if="vm.fileUploaded && vm.Utils.getAsset.documentType(vm.fileType)" class="center-me">
+            <p class="upload-description">Download the file</p>
+            <i class="uploadicons iconuploadcloud upload-btn active"></i>
+        </div>
+        <!-- <div class="upload-progress-loader" data-ng-if="vm.progressValue > 0"></div> -->
+        <div class="upload-progress-loader">
+            <div data-ng-style="{ 'width': vm.progressValue + '%' }"
+                 class="upload-progress-loader__percentage"></div>
+        </div>
+
+        <div class="preview-controls">
+            <a data-ng-href="{[ vm.fileUrl ]}" target="_blank">
+                <i class="edit-control uploadicons iconexternallink"></i>
+            </a>
+
+            <!-- <a data-ng-href="{[ vm.fileUrl ]}" target="_blank" data-ng-if="vm.Utils.getAsset.documentType(vm.fileType)">
+              <md-icon md-font-icon="icon-cloud-download"></md-icon>
+            </a> -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+----------------------------------------
+Timestamp: 9/9/2017 10:50:44 AM
+
+Message: System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at _Core.Ops.ImageSubmissionOpsMgmt.InsertItem(String fullName, String company, String phoneNumber, String email, String comments) in c:\Work\Projects\Clotho2017\Stucchi\Widgets\_Core\Ops\ImageSubmissionOpsMgmt.cs:line 23
+   at SitefinityWebApp.Api.ImageSubmission.ImageSubmissionController.Post(ImageSubmissionModel model) in c:\Work\Projects\Clotho2017\Stucchi\Website\Stucchi\Api\ImageSubmission\ImageSubmissionController.cs:line 42
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 9/9/2017 10:50:50 AM
+
+Message: System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at _Core.Ops.ImageSubmissionOpsMgmt.InsertItem(String fullName, String company, String phoneNumber, String email, String comments) in c:\Work\Projects\Clotho2017\Stucchi\Widgets\_Core\Ops\ImageSubmissionOpsMgmt.cs:line 23
+   at SitefinityWebApp.Api.ImageSubmission.ImageSubmissionController.Post(ImageSubmissionModel model) in c:\Work\Projects\Clotho2017\Stucchi\Website\Stucchi\Api\ImageSubmission\ImageSubmissionController.cs:line 42
+
+
+----------------------------------------

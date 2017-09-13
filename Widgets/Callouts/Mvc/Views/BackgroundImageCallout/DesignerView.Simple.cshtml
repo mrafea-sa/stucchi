@@ -1,0 +1,50 @@
+@using Telerik.Sitefinity.Mvc;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+
+<link rel="stylesheet" href="/Resources/Widgets/Css/styles.css">
+<link rel="stylesheet" href="/Resources/Vendors/ColorPicker/bootstrap-colorpicker.min.css">
+
+<div class="widget-main">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="txtTitle">Title</label>
+                <input id="txtTitle" type="text" class="form-control" ng-model="properties.Title.PropertyValue" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="txtMainContent">Text aligned</label>
+                <select id="lstAlignmentOptions" class="form-control" ng-model="properties.AlignmentOptions.PropertyValue">
+                    <option value="align-left" selected>Left aligned</option>
+                    <option value="align-right">Right aligned</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="txtMainContent">Main Content</label>
+                <textarea id="txtMainContent" class="dsgWYSIWYG"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label for="imgBackgroundImage" class="m-top-sm">Background Image</label>
+                <sf-image-field class="sf-Media--info modal-settings modal-settings-space"
+                                sf-model="properties.BackgroundImage.PropertyValue"
+                                sf-provider="">
+                </sf-image-field>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="/client-components/fields/tinymce/init.js"></script>

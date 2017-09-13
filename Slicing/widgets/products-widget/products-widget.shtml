@@ -1,0 +1,135 @@
+<!-- products widget -->
+<section class="problems-widget products margin-bottom-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row column display-flex align-items-center">
+                    <div class="col-xs-12  col-md-6 text-box">
+                        <h2 class="text-left font-28 text-uppercase">VEP</h2>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <h5 class="text-left font-18 text-uppercase">Features</h5>
+                        <ul>
+                            <li>Interchanges with VEP HD Series</li>
+                            <li>Connect/disconnect up to 25 MPa/300 bar/3625 psi residual pressure</li>
+                            <li>Working pressure: 40-60 MPa/5800-8700 psi range</li>
+                            <li>Eliminates brinelling, reduces leakage</li>
+                            <li>Saves time changing tools</li>
+                        </ul>
+                        <h5 class="text-left font-18 text-uppercase">Applications</h5>
+                        <ul>
+                            <li>All construction equipment applications with higher pressure requirements or connection/disconnection issues with tool attachments under residual pressure</li>
+                            <li>All large equipment needing junction points in circuit: cranes, drilling machines, oil field, well head drives, porta-power </li>
+                            <li>Excavators w/ auxiliary line for attachments: thumbs, grapples, hammers, compactors/hopaks • Save time changing tools</li>
+                        </ul>
+                        <div class="buttons">
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="View Details">VIEW DETAILS </a>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="ID Chart">ID CHART</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 image-box text-center">
+                        <img class="round-image img-responsive" src="resources/images/products/product-img11.png" alt="Product Image">
+                        <div class="buttons">
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="View Details">VIEW DETAILS </a>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="ID Chart">ID CHART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row column display-flex align-items-center">
+                    <div class="col-xs-12  col-md-6 text-box">
+                        <h2 class="text-left font-28 text-uppercase">VEP hd</h2>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <h5 class="text-left font-18 text-uppercase">Features</h5>
+                        <ul>
+                            <li>Interchanges with VEP HD Series</li>
+                            <li>Connect/disconnect up to 25 MPa/300 bar/3625 psi residual pressure</li>
+                            <li>Working pressure: 40-60 MPa/5800-8700 psi range</li>
+                            <li>Eliminates brinelling, reduces leakage</li>
+                            <li>Saves time changing tools</li>
+                        </ul>
+                        <h5 class="text-left font-18 text-uppercase">Applications</h5>
+                        <ul>
+                            <li>All construction equipment applications with higher pressure requirements or connection/disconnection issues with tool attachments under residual pressure</li>
+                            <li>All large equipment needing junction points in circuit: cranes, drilling machines, oil field, well head drives, porta-power </li>
+                            <li>Excavators w/ auxiliary line for attachments: thumbs, grapples, hammers, compactors/hopaks • Save time changing tools</li>
+                        </ul>
+                        <div class="buttons">
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="View Details">VIEW DETAILS </a>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="ID Chart">ID CHART</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 image-box text-center">
+                        <img class="round-image img-responsive" src="resources/images/products/product-img11.png" alt="Product Image">
+                        <div class="buttons">
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="View Details">VIEW DETAILS </a>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="ID Chart">ID CHART</a>
+                        </div>
+                    </div>
+                </div>
+            <div class="row column display-flex align-items-center">
+                    <div class="col-xs-12  col-md-6 text-box">
+                        <h2 class="text-left font-28 text-uppercase">VEP hdl</h2>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <h5 class="text-left font-18 text-uppercase">Features</h5>
+                        <ul>
+                            <li>Interchanges with VEP HD Series</li>
+                            <li>Connect/disconnect up to 25 MPa/300 bar/3625 psi residual pressure</li>
+                            <li>Working pressure: 40-60 MPa/5800-8700 psi range</li>
+                            <li>Eliminates brinelling, reduces leakage</li>
+                            <li>Saves time changing tools</li>
+                        </ul>
+                        <h5 class="text-left font-18 text-uppercase">Applications</h5>
+                        <ul>
+                            <li>All construction equipment applications with higher pressure requirements or connection/disconnection issues with tool attachments under residual pressure</li>
+                            <li>All large equipment needing junction points in circuit: cranes, drilling machines, oil field, well head drives, porta-power </li>
+                            <li>Excavators w/ auxiliary line for attachments: thumbs, grapples, hammers, compactors/hopaks • Save time changing tools</li>
+                        </ul>
+                        <div class="buttons">
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="View Details">VIEW DETAILS </a>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="ID Chart">ID CHART</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 image-box text-center">
+                        <img class="round-image img-responsive" src="resources/images/products/product-img11.png" alt="Product Image">
+
+                        <div class="buttons">
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="View Details">VIEW DETAILS </a>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="ID Chart">ID CHART</a>
+                        </div>
+                    </div>
+                </div>
+               <div class="row column display-flex align-items-center">
+                    <div class="col-xs-12  col-md-6 text-box">
+                        <h2 class="text-left font-28 text-uppercase">VP</h2>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <h5 class="text-left font-18 text-uppercase">Features</h5>
+                        <ul>
+                            <li>Interchanges with VEP HD Series</li>
+                            <li>Connect/disconnect up to 25 MPa/300 bar/3625 psi residual pressure</li>
+                            <li>Working pressure: 40-60 MPa/5800-8700 psi range</li>
+                            <li>Eliminates brinelling, reduces leakage</li>
+                            <li>Saves time changing tools</li>
+                        </ul>
+                        <h5 class="text-left font-18 text-uppercase">Applications</h5>
+                        <ul>
+                            <li>All construction equipment applications with higher pressure requirements or connection/disconnection issues with tool attachments under residual pressure</li>
+                            <li>All large equipment needing junction points in circuit: cranes, drilling machines, oil field, well head drives, porta-power </li>
+                            <li>Excavators w/ auxiliary line for attachments: thumbs, grapples, hammers, compactors/hopaks • Save time changing tools</li>
+                        </ul>
+                        <div class="buttons">
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="View Details">VIEW DETAILS </a>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="ID Chart">ID CHART</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 image-box text-center">
+                        <img class="round-image img-responsive" src="resources/images/products/product-img11.png" alt="Product Image">
+                        <div class="buttons">
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="View Details">VIEW DETAILS </a>
+                        <a href="javascript:;" class="button button-white pink text-uppercase" title="ID Chart">ID CHART</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end products widget -->

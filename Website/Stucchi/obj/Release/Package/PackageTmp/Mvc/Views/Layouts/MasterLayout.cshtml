@@ -1,0 +1,57 @@
+﻿@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using System.Web.Optimization
+@using System.Web.Mvc.Html
+@using SitefinityWebApp.Application
+
+@using Telerik.Sitefinity.Services;
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    @Html.RenderSchemaOrg("organisation")
+    @Html.RenderSchemaOrg("search")
+    @Html.RenderSchemaOrg("gtm-head")
+    @Html.RenderSchemaOrg("twitter-card")
+    @Html.PreRenderedCSS()
+
+    @if (SystemManager.IsDesignMode)
+    {
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    }
+
+    <script type="text/javascript">var deferedJs = [];</script>
+</head>
+
+<body class="stucchi-project">
+    @Html.RenderSchemaOrg("gtm-body")
+
+    <header>
+        @Html.SfPlaceHolder("Content_Header")
+    </header>
+
+    @Html.SfPlaceHolder("Contentplaceholder")
+
+    <footer>
+        @Html.SfPlaceHolder("Content_Footer")
+    </footer>
+
+
+    @if (!SystemManager.IsDesignMode)
+    {
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        @Scripts.Render("~/Bundles/CommonScripts")
+    }
+    else
+    {
+        @Scripts.Render("~/Bundles/CommonAdminScripts")
+    }
+
+    @Styles.Render("~/Bundles/CommonStyles")
+</body>
+
+</html>

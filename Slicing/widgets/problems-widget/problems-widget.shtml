@@ -1,0 +1,66 @@
+<!-- problems widget -->
+<section class="problems-widget margin-bottom-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="row column">
+                    <div class="col-xs-12 col-sm-6 col-sm-push-6 image-box">
+                        <img class="round-image img-responsive" src="resources/images/icons/case-studies-img.jpg" alt="Problems Image">
+                    </div>
+                    <div class="col-xs-12  col-sm-6 col-sm-pull-6 text-box">
+                        <h4 class="text-left font-20 text-uppercase">PROBLEM: </h4>
+                        <h3 class="text-left font-26">HEALTH & SAFETY</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <h5 class="text-left font-18 text-uppercase">CHALLENGE</h5>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam.</p>
+                        <h5 class="text-left font-18 text-uppercase">SOLUTION</h5>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam..</p>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div class="col-xs-12 col-sm-6 col-sm-push-6 image-box">
+                        <img class="round-image img-responsive" src="resources/images/icons/case-studies-img.jpg" alt="Problems Image">
+                    </div>
+                    <div class="col-xs-12  col-sm-6 col-sm-pull-6 text-box">
+                        <h4 class="text-left font-20 text-uppercase">PROBLEM: </h4>
+                        <h3 class="text-left font-26">HEALTH & SAFETY</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <h5 class="text-left font-18 text-uppercase">CHALLENGE</h5>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam.</p>
+                        <h5 class="text-left font-18 text-uppercase">SOLUTION</h5>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam..</p>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div class="col-xs-12 col-sm-6 col-sm-push-6 image-box">
+                        <img class="round-image img-responsive" src="resources/images/icons/case-studies-img.jpg" alt="Problems Image">
+                    </div>
+                    <div class="col-xs-12  col-sm-6 col-sm-pull-6 text-box">
+                        <h4 class="text-left font-20 text-uppercase">PROBLEM: </h4>
+                        <h3 class="text-left font-26">HEALTH & SAFETY</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <h5 class="text-left font-18 text-uppercase">CHALLENGE</h5>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam.</p>
+                        <h5 class="text-left font-18 text-uppercase">SOLUTION</h5>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam..</p>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div class="col-xs-12 col-sm-6 col-sm-push-6 image-box">
+                        <img class="round-image img-responsive" src="resources/images/icons/case-studies-img.jpg" alt="Problems Image">
+                    </div>
+                    <div class="col-xs-12  col-sm-6 col-sm-pull-6 text-box">
+                        <h4 class="text-left font-20 text-uppercase">PROBLEM: </h4>
+                        <h3 class="text-left font-26">HEALTH & SAFETY</h3>
+                        <p>Mauris iaculis pede a risus. Suspendisse mollis. Donec suscipit. Sed tellus magna, tempus a, ultricies in, dignissim et, nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero.</p>
+                        <h5 class="text-left font-18 text-uppercase">CHALLENGE</h5>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam.</p>
+                        <h5 class="text-left font-18 text-uppercase">SOLUTION</h5>
+                        <p>Maecenas tincidunt, dui sed interdum vehicula, justo arcu tempus risus, id semper arcu velit sit amet mi. Donec sem. Sed pulvinar fringilla elit. Quisque ante. Cras tempor lobortis velit. Phasellus porta arcu sit amet libero. Aenean aliquet, leo in porta aliquam..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end problems widget -->

@@ -1,0 +1,30 @@
+@model dynamic
+
+<!-- column four iconsm widget -->
+<section class="column-four-icons-widget">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                <div class="row">
+
+                    @foreach (var item in Model.ItemsSelectedItems)
+                    {
+                        <div class="box col-xs-3">
+                            @if (item.LinkLinks.Count > 0)
+                            {
+                                <a href="@item.LinkLinks[0].Url" title="@item.DisplayTitle">
+                                    @if (item.ImageMediaAssets.Count > 0)
+                                    {
+                                        <img src="@item.ImageMediaAssets[0].Src" alt="@item.ImageMediaAssets[0].Alt" class="img-responsive margin-bottom-1">
+                                    }
+                                    <span>@Html.Raw(@item.DisplayTitle)</span>
+                                </a>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end column four iconsm widget -->
