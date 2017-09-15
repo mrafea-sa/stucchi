@@ -12,6 +12,7 @@ using SitefinityWebApp.Application.Pages;
 using System.Web.Http;
 using System;
 using System.Web.Routing;
+using System.Configuration;
 
 namespace SitefinityWebApp
 {
@@ -64,6 +65,24 @@ namespace SitefinityWebApp
         {
 
         }
+
+        protected void Application_EndRequest()
+        {
+            if (Context != null && Context.Request != null)
+            {
+                var pageUrl = Context.Request.CurrentExecutionFilePath;
+                if (!string.IsNullOrEmpty(pageUrl))
+                {
+                    var page404 = ConfigurationManager.AppSettings["404Page"];
+                    if (pageUrl == page404)
+                    {
+                        Context.Response.Status = "404 Not Found";
+                        Context.Response.StatusCode = 404;
+                    }
+                }
+            }
+        }
+
 
         protected void Bootstrapper_Initialized(object sender, ExecutedEventArgs e)
         {

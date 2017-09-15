@@ -1648,6 +1648,10 @@
     <Content Include="Mvc\Views\ImageSubmission\DesignerView.Simple.cshtml" />
     <EmbeddedResource Include="Mvc\Views\ImageSubmission\DesignerView.Simple.json" />
     <Content Include="Mvc\Views\ImageSubmission\Template.cshtml" />
+    <Content Include="Mvc\Views\ProductSearch\DesignerView.Simple.cshtml" />
+    <EmbeddedResource Include="Mvc\Views\ProductSearch\DesignerView.Simple.json" />
+    <Content Include="Mvc\Views\ProductSearch\Template.cshtml" />
+    <None Include="Properties\PublishProfiles\MihaiD.pubxml" />
     <None Include="Properties\PublishProfiles\Stucchi.pubxml" />
   </ItemGroup>
   <ItemGroup>

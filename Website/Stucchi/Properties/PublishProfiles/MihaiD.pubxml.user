@@ -1,0 +1,1546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Deployments\Stucchi</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Application/Fields/ColorPeeker/ColorPicker.ascx">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Application/Fields/ColorPeeker/ColorPicker.js">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Application/Fields/PageSelector/PageSelectorField.ascx">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Application/Fields/PageSelector/PageSelectorField.js">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Application/Pages/PagesExtension.js">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/de-DE.tdf">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/en-US.tdf">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/fr-FR.tdf">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="App_Data/Sitefinity/Configuration/AuthenticationConfig.config">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="App_Data/Sitefinity/Configuration/DataConfig.config">
+      <publishTime>09/15/2017 17:47:49</publishTime>
+    </File>
+    <File Include="App_Data/Sitefinity/Configuration/ProjectConfig.config">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="App_Data/Sitefinity/Configuration/SecurityConfig.config">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="App_Data/Sitefinity/Sitefinity.lic">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/AmazingCloudSearch.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/AngleSharp.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/AntiXssLibrary.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Autofac.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.WebApi.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/AWSSDK.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/BundleTransformer.Core.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Callouts.dll">
+      <publishTime>09/15/2017 18:53:02</publishTime>
+    </File>
+    <File Include="bin/CsvHelper.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/DDay.Collections.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/DDay.iCal.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/DirectShowLib-2005.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Elasticsearch.Net.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Forms.dll">
+      <publishTime>09/15/2017 18:53:03</publishTime>
+    </File>
+    <File Include="bin/Global.dll">
+      <publishTime>09/15/2017 18:53:00</publishTime>
+    </File>
+    <File Include="bin/Html2Amp.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/HtmlSanitizationLibrary.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/HtmlSanitizer.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/IdentityModel.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/IdentityServer3.AccessTokenValidation.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/IdentityServer3.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/LinqToTwitter.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.KeyVault.Core.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CSharp.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Services.Client.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Http.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocol.Extensions.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.OData.Core.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.OData.Edm.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Cors.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.FileSystems.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Jwt.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OpenIdConnect.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.WsFederation.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.StaticFiles.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.Runtime.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Spatial.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Types.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Administration.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Diagnostics.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.ServiceRuntime.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="bin/MonAgentListener.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/Nest.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/15/2017 10:57:13</publishTime>
+    </File>
+    <File Include="bin/Ninject.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.Common.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/Owin.Security.Providers.GitHub.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/Owin.Security.Providers.LinkedIn.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/payflow_dotNET.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Products.dll">
+      <publishTime>09/15/2017 18:53:02</publishTime>
+    </File>
+    <File Include="bin/RazorEngine.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/RazorGenerator.Mvc.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/RazorGenerator.Templating.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/RedDog.Search.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Client.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Common.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Interfaces.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Redis.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Text.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/SitefinityWebApp.dll">
+      <publishTime>09/15/2017 18:53:11</publishTime>
+    </File>
+    <File Include="bin/SitefinityWebApp.dll.config">
+      <publishTime>09/15/2017 18:14:56</publishTime>
+    </File>
+    <File Include="bin/SitefinityWebApp.ResourcePackages.Bootstrap.dll">
+      <publishTime>09/15/2017 17:47:10</publishTime>
+    </File>
+    <File Include="bin/SitefinityWebApp.xml">
+      <publishTime>09/15/2017 18:53:11</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/15/2017 10:56:28</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/15/2017 10:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Owin.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Tracing.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/15/2017 10:57:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.OData.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/15/2017 10:57:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/15/2017 10:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/15/2017 10:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/15/2017 10:57:13</publishTime>
+    </File>
+    <File Include="bin/System.Windows.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.DEC.Common.Encryption.Contract.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.DigitalExperienceCloud.Client.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Octopus.Validation.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.35.Extensions.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.40.Extensions.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.DataAdapter.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.DataAdapter.Everlive.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.DataAdapter.OpenAccess.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.DataAdapter.SalesForce.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.DataAdapter.SharePoint.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.DataSource.SharePoint.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.DataSource.SyncDB.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.Runtime.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.Sync.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.OpenAccess.Web.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.OpenXmlRendering.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.XpsRendering.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.ReportViewer.WebForms.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Amazon.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.AmazonCloudSearch.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.AmazonCloudSearch.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Analytics.Server.Infrastructure.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Analytics.Server.Infrastructure.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Audit.Elasticsearch.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.AuditTrail.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Authentication.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Authentication.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Azure.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Azure.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Azure.dll.lastcodeanalysissucceeded">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Connectivity.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Connectivity.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.ContentModules.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.ContentModules.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Dashboard.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Dashboard.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.DataIntelligenceConnector.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Diagnostics.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Diagnostics.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.DropboxLibraries.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.DropboxLibraries.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Ecommerce.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Ecommerce.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.EloquaConnector.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Forums.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Forums.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Blogs.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Blogs.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Card.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Card.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Comments.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Comments.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.ContentBlock.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.ContentBlock.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Data.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Data.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.DynamicContent.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.DynamicContent.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.EmailCampaigns.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.EmailCampaigns.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Events.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Events.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Forms.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Forms.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Identity.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Identity.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.InlineClientAssets.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.InlineClientAssets.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Lists.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Lists.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Media.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Media.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Navigation.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Navigation.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.News.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.News.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Publishing.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Publishing.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Search.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Search.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.SocialShare.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.SocialShare.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Taxonomies.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Frontend.Taxonomies.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.MarketoConnector.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.MarketoConnector.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.MobileFormats.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Model.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Mvc.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Mvc.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Packaging.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Packaging.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Personalization.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Personalization.Impl.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Personalization.Impl.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.PrecompiledPages.Backend.0.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.PrecompiledTemplates.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.RecurrentRules.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.RecycleBin.dll">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.RecycleBin.dll.config">
+      <publishTime>09/15/2017 10:56:29</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Resources.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Resources.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.SalesForceConnector.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.SalesForceConnector.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Search.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Search.Impl.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Search.Impl.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Comments.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Comments.Impl.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Comments.Impl.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Documents.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Documents.Impl.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Documents.Impl.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Events.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Notifications.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Notifications.Impl.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Notifications.Impl.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.RecycleBin.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.RecycleBin.Impl.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.RecycleBin.Impl.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Statistics.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Statistics.Impl.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Services.Statistics.Impl.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.SharepointConnector.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.SharepointConnector.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Sitemap.XML">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.SitemapGenerator.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.SitemapGenerator.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.SiteSync.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.SiteSync.Impl.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.SiteSync.Impl.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Thunder.CodeSync.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Thunder.Contracts.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Thunder.Module.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Thunder.Module.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Thunder.Zip.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Translations.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Translations.dll.config">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Utilities.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Sitefinity.Web.Api.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.Design.dll">
+      <publishTime>09/15/2017 10:56:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.Skins.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Controls.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Data.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Core.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Fixed.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.Flow.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.FormatProviders.Html.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.FormatProviders.OpenXml.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Documents.FormatProviders.Rtf.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.RadUploadHandler.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Zip.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/Twitterizer2.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="bin/_Core.dll">
+      <publishTime>09/15/2017 18:52:59</publishTime>
+    </File>
+    <File Include="client-components/fields/html-field/html-field.css">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="client-components/fields/html-field/sf-html-field.sf-cshtml">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="client-components/fields/tinymce/init.js">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="client-components/fields/tinymce/styles.css">
+      <publishTime>09/15/2017 10:56:31</publishTime>
+    </File>
+    <File Include="ClientBin/Telerik.Sitefinity.Analytics.xap">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="ClientBin/Telerik.Sitefinity.Silverlight.xap">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Controllers/readme.txt">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Models/readme.txt">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Views/ContactUs/DesignerView.Simple.cshtml">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Views/ContactUs/Template.cshtml">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Views/HelpDesk/DesignerView.Simple.cshtml">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Views/HelpDesk/Template.cshtml">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Views/ImageSubmission/DesignerView.Simple.cshtml">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Views/ImageSubmission/Template.cshtml">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Views/Layouts/MasterLayout.cshtml">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Views/ProductSearch/DesignerView.Simple.cshtml">
+      <publishTime>09/15/2017 18:01:24</publishTime>
+    </File>
+    <File Include="Mvc/Views/ProductSearch/Template.cshtml">
+      <publishTime>09/15/2017 18:09:00</publishTime>
+    </File>
+    <File Include="Mvc/Views/readme.txt">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="Mvc/Views/Shared/readme.txt">
+      <publishTime>09/15/2017 10:56:25</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/15/2017 10:56:38</publishTime>
+    </File>
+    <File Include="Resources/Css/bootstrap.min.css">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Css/custom.css">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Css/font-awesome.min.css">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Css/main.css">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Css/owl.carousel.min.css">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Css/upload.css">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Emails/ContactTemplate.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Emails/HelpDeskTemplate.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Emails/ImageSubmissionTemplate.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Emails/MainTemplate.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/fontawesome-webfont.eot">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/fontawesome-webfont.svg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/fontawesome-webfont.ttf">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/fontawesome-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/fontawesome-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/FontAwesome.otf">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_bold-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_bold-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_bold-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_light-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_light-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_light-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_regular-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_regular-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_regular-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_thin-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_thin-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/gobold_thin-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-bold-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-bold-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-bold-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-italic-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-italic-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-italic-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-light-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-light-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-light-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-lightitalic-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-lightitalic-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-lightitalic-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-regular-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-regular-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-regular-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-semibold-demo.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-semibold-webfont.woff">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/muli-semibold-webfont.woff2">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Fonts/stylesheet.css">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Banner/background-banner.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Banner/background-callout.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Banner/bg-default.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Banner/hero-banner.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Banner/internal-banner.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/celebrating-years-logo.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/header-logo.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/hero-image.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/agricultural-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/case-studies-img.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/industrial-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/linkedin-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/minus-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/mobile-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/oil-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/plus-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/rectangle-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/round-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/vimeo-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Icons/youtube-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/internal-banner-image.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/default-img-big.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/default-img.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/image-upload.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img1.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img11.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img2.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img3.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img4.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img5.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img6.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img7.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img8.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/product-img9.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/Products/video-image.jpg">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Images/vep-ico.png">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/angular-resource.min.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/angular-sanitize.min.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/angular.min.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/bootstrap.min.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/jquery.easing.min.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/loadDeferedJs.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/main.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/owl.carousel.min.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/Widgets/contactus.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/Widgets/helpdesk.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/Widgets/image-submission.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/Widgets/products-categories.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/Widgets/products-search.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/Widgets/upload-file.directive.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Js/Widgets/upload-file.html">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Vendors/ColorPicker/bootstrap-colorpicker.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Vendors/ColorPicker/bootstrap-colorpicker.min.css">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Resources/Widgets/css/styles.css">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Silverlight.js">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Default.aspx">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Public/Services/Ecommerce/Order/CartOrder.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Public/Services/LoadBalancing/AzureSystemWebService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Public/Services/Thunder/ThunderService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Analytics/AnalyticsPermissionsService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Analytics/DashboardData.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Analytics/GoogleAnalytics.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Analytics/MapDataService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/BlobStorage/BlobStorage.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Catalog/ProductAttribute.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Catalog/ProductAttributeValue.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Common/Comments.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Common/Content.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Common/GenericItemsService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Common/QueryBuilderService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Configuration/ConfigPolicies.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Configuration/ConfigPolicyHandlers.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Configuration/ConfigSectionItems.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Configuration/ConfigSections.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Configuration/LocalizationCultures.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/AlbumService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/BlogPostService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/BlogService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/CommentsGenericService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/ContentBlockPage.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/ContentItemService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/ContentService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/DocumentLibraryService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/DocumentService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/EventService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/Generic.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/ImageService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/NewsItemService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/VideoLibraryService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Content/VideoService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/ControlTemplates/ControlTemplateService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/DynamicModules/BackendFormService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/DynamicModules/BackendGridStructureService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/DynamicModules/ContentTypeService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/DynamicModules/Data.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Catalog/ProductAttribute.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Catalog/ProductAttributeValue.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Catalog/ProductService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Catalog/ProductTypeService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Catalog/ProductVariation.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Catalog/ProductVariationDetail.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Catalog/ProductVariationsModuleService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/CurrencyData.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/Cart.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/CartAddress.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/CartDetail.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/CartDiscount.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/Customer.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/CustomerAddress.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/Discount.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/Order.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/OrderDiscount.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/OrderDownload.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/PaymentMethod.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/Tax.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Order/TaxClass.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Reports/OrdersReports.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Reports/ProductsReports.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Ecommerce/Shipping/ShippingMethod.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Folders/FoldersService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Forms/FormsService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Lists/ListItemService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Lists/ListService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Lists/ListsModuleService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/LoadBalancing/SystemWebService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Localization/AllCulturesResource.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Localization/DualLocalizationResources.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Localization/LocalizationClasses.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Localization/LocalizationResources.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/MetaData/MetaData.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/MetaData/ModuleEditor.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Newsletters/ABCampaign.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Newsletters/Campaign.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Newsletters/DynamicList.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Newsletters/IssueReport.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Newsletters/MailingList.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Newsletters/MessageTemplate.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Newsletters/Settings.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Newsletters/Subscriber.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Newsletters/SystemStats.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Pages/ControlPropertyService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Pages/PagesService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Pages/PageTemplatesService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Pages/ZoneEditorService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Publishing/PublishingService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/ResponsiveDesign/MediaQuery.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Security/MembershipSettings.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Security/Permissions.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Security/Roles.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Security/Users.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/SitefinityProject.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/SiteSync/SiteSyncService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Taxonomies/FlatTaxon.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Taxonomies/HierarchicalTaxon.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Taxonomies/MarkedItems.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Taxonomies/Taxonomy.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Thunder/ThunderService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Twitter/TwitterCredentialsService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Twitter/TwitterUrlShortConfigService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/UserProfiles/UserProfileTypesService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Versioning/HistoryService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Workflow/WorkflowDefinitionService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="Sitefinity/Services/Workflow/WorkflowService.svc">
+      <publishTime>09/15/2017 10:56:27</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>09/15/2017 18:14:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

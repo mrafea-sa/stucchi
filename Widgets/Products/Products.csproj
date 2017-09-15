@@ -173,9 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <EmbeddedResource Include="Mvc\Views\ProductSearch\DesignerView.Simple.cshtml" />
-    <EmbeddedResource Include="Mvc\Views\ProductSearch\DesignerView.Simple.json" />
-    <EmbeddedResource Include="Mvc\Views\ProductSearch\Template.cshtml" />
     <EmbeddedResource Include="Mvc\Views\ProductItem\DesignerView.Simple.cshtml" />
     <EmbeddedResource Include="Mvc\Views\ProductItem\DesignerView.Simple.json" />
     <EmbeddedResource Include="Mvc\Views\ProductItem\Template.cshtml" />

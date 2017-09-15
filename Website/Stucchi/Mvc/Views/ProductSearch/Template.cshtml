@@ -57,7 +57,7 @@
                     </div>
                     <div class="main col-xs-12 col-sm-7 col-sm-offset-1 margin-top-5">
                         <div class="box" ng-repeat="item in prodResult.Products">
-                            <p><span class="font-bold">SERIES: VEP </span>- {{item.Title}}</p>
+                            <p ng-bind-html="item.Title"></p>
                         </div>
 
                         <div class="box no-results" ng-if="prodResult != null && prodResult.Products.length == 0">
